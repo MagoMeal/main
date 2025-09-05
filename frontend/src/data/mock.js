@@ -121,7 +121,7 @@ export const mockData = {
       author: "Maya Patel",
       date: "March 10, 2024",
       readTime: "4 min read",
-      category: "Sustainability"
+      category: "Innovation"
     },
     {
       id: 3,
