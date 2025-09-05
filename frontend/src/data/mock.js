@@ -62,7 +62,7 @@ export const mockData = {
     },
     {
       id: 2,
-      name: "Biodegradable Cups",
+      name: "Edible Cups",
       description: "Compostable cups perfect for hot and cold beverages, made from cornstarch and natural fibers.",
       features: ["Heat resistant", "Leak-proof", "Composts in 90 days", "Custom branding available"],
       price: "Starting at $0.15 per unit",
