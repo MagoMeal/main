@@ -9,45 +9,6 @@ const Home = () => {
     setIsVisible(true);
   }, []);
 
-  const features = [
-    {
-      icon: <Package size={48} />,
-      title: "Edible Packaging",
-      description: "Revolutionary edible packaging solutions that reduce waste and protect the environment while keeping your food fresh."
-    },
-    {
-      icon: <Recycle size={48} />,
-      title: "Sustainable Materials",
-      description: "Made from 100% natural materials including seaweed extracts, plant proteins, and agricultural waste that completely decompose."
-    },
-    {
-      icon: <Leaf size={48} />,
-      title: "100% Eco-Friendly",
-      description: "Every product is designed with sustainability in mind, contributing to a healthier planet for future generations."
-    }
-  ];
-
-  const testimonials = [
-    {
-      name: "Sarah Johnson",
-      role: "Restaurant Owner",
-      content: "MagoMeal's edible packaging has transformed our takeout service. Our customers love the eco-friendly approach!",
-      rating: 5
-    },
-    {
-      name: "Mike Chen",
-      role: "Cafe Manager",
-      content: "MagoMeal's edible packaging has transformed our business. The quality is exceptional and our environmental impact has decreased significantly.",
-      rating: 5
-    },
-    {
-      name: "Emma Rodriguez",
-      role: "Sustainability Manager",
-      content: "Finally, a packaging solution that aligns with our environmental values without compromising on quality.",
-      rating: 5
-    }
-  ];
-
   return (
     <div className="home-page">
       {/* Hero Section */}
