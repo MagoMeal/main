@@ -31,7 +31,7 @@ const Home = () => {
     {
       name: "Sarah Johnson",
       role: "Restaurant Owner",
-      content: "MagoMeal's biodegradable packaging has transformed our takeout service. Our customers love the eco-friendly approach!",
+      content: "MagoMeal's edible packaging has transformed our takeout service. Our customers love the eco-friendly approach!",
       rating: 5
     },
     {
