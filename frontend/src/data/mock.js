@@ -1,4 +1,4 @@
-// Mock data for MagoMeal website
+// Mock data for MagoMeal website - Biodegradable Packaging Solutions
 // This file contains all the mock data used throughout the application
 // Once backend is implemented, this data will be replaced with API calls
 
@@ -7,7 +7,7 @@ export const mockData = {
   company: {
     name: "MagoMeal",
     tagline: "Fuel Your Day, Feed Your Roots",
-    description: "Eco-friendly food and packaging solutions for a sustainable future",
+    description: "Leading the sustainable packaging revolution with innovative biodegradable solutions",
     logo: "https://customer-assets.emergentagent.com/job_1599ee33-608a-4f29-a948-5fbb4b56f909/artifacts/scyoowtk_MagoMeal_Logo.jpeg",
     contact: {
       email: "info@magomeal.com",
@@ -19,9 +19,9 @@ export const mockData = {
 
   // Homepage Statistics
   stats: [
-    { number: "10,000+", label: "Packages Delivered" },
-    { number: "95%", label: "Customer Satisfaction" },
-    { number: "50+", label: "Business Partners" },
+    { number: "50,000+", label: "Packages Delivered" },
+    { number: "98%", label: "Customer Satisfaction" },
+    { number: "200+", label: "Business Partners" },
     { number: "100%", label: "Biodegradable" }
   ],
 
@@ -37,8 +37,8 @@ export const mockData = {
     {
       id: 2,
       name: "Mike Chen",
-      role: "Event Coordinator",
-      content: "The food truck service was perfect for our corporate event. Great food and the packaging was impressively sustainable.",
+      role: "Cafe Manager",
+      content: "The packaging quality is exceptional and our environmental impact has decreased significantly since switching to MagoMeal.",
       rating: 5
     },
     {
@@ -83,66 +83,22 @@ export const mockData = {
       features: ["Microwave safe", "Sturdy construction", "90-day composting", "Multiple sizes"],
       price: "Starting at $0.20 per unit",
       category: "packaging"
-    }
-  ],
-
-  // Food Truck Schedule
-  foodTruckSchedule: [
-    {
-      day: "Monday",
-      location: "Downtown Business District",
-      time: "11:00 AM - 2:00 PM",
-      address: "Main St & 5th Ave"
     },
     {
-      day: "Tuesday",
-      location: "University Campus",
-      time: "11:30 AM - 2:30 PM",
-      address: "Student Center Plaza"
+      id: 5,
+      name: "Eco-Friendly Bowls",
+      description: "Deep bowls perfect for soups, salads, and main dishes, crafted from renewable materials.",
+      features: ["Deep capacity", "Temperature resistant", "Non-toxic materials", "Stackable design"],
+      price: "Starting at $0.28 per unit",
+      category: "packaging"
     },
     {
-      day: "Wednesday",
-      location: "Tech Park",
-      time: "11:00 AM - 2:00 PM",
-      address: "Innovation Drive"
-    },
-    {
-      day: "Thursday",
-      location: "Downtown Business District",
-      time: "11:00 AM - 2:00 PM",
-      address: "Main St & 5th Ave"
-    },
-    {
-      day: "Friday",
-      location: "Farmers Market",
-      time: "10:00 AM - 3:00 PM",
-      address: "Central Park North"
-    },
-    {
-      day: "Saturday",
-      location: "Community Events",
-      time: "Variable",
-      address: "Check our social media for updates"
-    }
-  ],
-
-  // Food Truck Menu
-  foodTruckMenu: [
-    {
-      category: "Signature Bowls",
-      items: [
-        { name: "Green Goddess Bowl", description: "Quinoa, avocado, kale, edible packaging", price: "$12.99" },
-        { name: "Protein Power Bowl", description: "Grilled chicken, brown rice, vegetables", price: "$13.99" },
-        { name: "Vegan Delight Bowl", description: "Tempeh, mixed greens, tahini dressing", price: "$11.99" }
-      ]
-    },
-    {
-      category: "Sustainable Sandwiches",
-      items: [
-        { name: "Eco Club", description: "Turkey, avocado, sprouts on grain bread", price: "$9.99" },
-        { name: "Plant-Based BLT", description: "Coconut bacon, lettuce, tomato", price: "$8.99" },
-        { name: "Grilled Veggie Wrap", description: "Seasonal vegetables in edible wrap", price: "$8.49" }
-      ]
+      id: 6,
+      name: "Sustainable Utensils",
+      description: "Complete utensil set made from compressed plant fibers that decompose naturally.",
+      features: ["Full utensil set", "Sturdy construction", "Compostable", "Bulk packaging available"],
+      price: "Starting at $0.12 per piece",
+      category: "packaging"
     }
   ],
 
@@ -160,8 +116,8 @@ export const mockData = {
     },
     {
       id: 2,
-      title: "Food Truck Sustainability: Our Journey to Zero Waste",
-      excerpt: "Learn about our food truck's commitment to sustainability and how we achieve zero waste operations.",
+      title: "From Waste to Wonder: How Agricultural Byproducts Become Packaging",
+      excerpt: "Learn about our innovative process of transforming agricultural waste into high-quality biodegradable packaging.",
       author: "Maya Patel",
       date: "March 10, 2024",
       readTime: "4 min read",
@@ -196,8 +152,8 @@ export const mockData = {
     },
     {
       id: 6,
-      title: "Weekly Food Truck Update: New Locations Added",
-      excerpt: "We're expanding! Check out our new weekly stops and updated schedule for March.",
+      title: "Global Impact: How Biodegradable Packaging is Changing the World",
+      excerpt: "Exploring the worldwide adoption of sustainable packaging and its environmental benefits.",
       author: "Jordan Kim",
       date: "February 15, 2024",
       readTime: "2 min read",
@@ -246,22 +202,22 @@ export const mockData = {
     },
     {
       id: 4,
-      question: "Where does your food truck operate?",
-      answer: "We currently operate in the downtown area with regular stops at business districts, university campuses, and community events. Check our Products & Services page for our weekly schedule."
+      question: "How long does the packaging last before decomposing?",
+      answer: "Our packaging is designed to maintain integrity during normal use and storage, then compost completely within 90 days in appropriate composting conditions."
     },
     {
       id: 5,
-      question: "Do you offer catering services?",
-      answer: "Yes! We provide catering services for corporate events, private parties, and community gatherings. All food is served in our biodegradable packaging."
+      question: "Do you offer bulk pricing for large orders?",
+      answer: "Yes! We provide competitive bulk pricing and special rates for large volume orders. Contact our sales team for custom pricing information."
     }
   ],
 
   // Contact Form Options
   contactFormOptions: {
     inquiryTypes: [
-      { value: 'packaging', label: 'Biodegradable Packaging' },
-      { value: 'foodtruck', label: 'Food Truck Services' },
-      { value: 'catering', label: 'Catering Inquiry' },
+      { value: 'packaging', label: 'Biodegradable Packaging Inquiry' },
+      { value: 'custom', label: 'Custom Packaging Solutions' },
+      { value: 'bulk', label: 'Bulk Order Inquiry' },
       { value: 'partnership', label: 'Partnership Opportunity' },
       { value: 'general', label: 'General Question' }
     ]

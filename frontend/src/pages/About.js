@@ -21,7 +21,7 @@ const About = () => {
     {
       icon: <Award size={48} />,
       title: "Quality Assured",
-      description: "Commitment to excellence in every product and service we deliver to our valued customers."
+      description: "Commitment to excellence in every product we deliver to our valued customers."
     }
   ];
 
@@ -52,7 +52,7 @@ const About = () => {
             <h1 className="display-medium">About MagoMeal</h1>
             <p className="body-large">
               We're on a mission to revolutionize the food packaging industry with sustainable, 
-              biodegradable solutions that protect both your food and our planet.
+              biodegradable solutions that protect both your products and our planet.
             </p>
           </div>
         </div>
@@ -71,9 +71,9 @@ const About = () => {
                 innovative biodegradable materials that would change the industry forever.
               </p>
               <p className="body-medium">
-                Today, we're proud to offer revolutionary edible packaging solutions and sustainable 
-                food truck services that embody our commitment to environmental stewardship while 
-                delivering exceptional quality and taste.
+                Today, we're proud to offer revolutionary edible packaging solutions that embody our 
+                commitment to environmental stewardship while delivering exceptional quality and functionality. 
+                Our products serve restaurants, cafes, and food businesses worldwide.
               </p>
             </div>
           </div>
@@ -138,7 +138,7 @@ const About = () => {
             <h2 className="heading-1">Our Mission</h2>
             <p className="body-large">
               To lead the transformation of the food packaging industry by providing innovative, 
-              sustainable solutions that eliminate waste while delivering exceptional quality and taste. 
+              sustainable solutions that eliminate waste while delivering exceptional quality and functionality. 
               We're committed to creating a world where packaging enhances rather than harms our environment.
             </p>
             <div className="mission-stats">

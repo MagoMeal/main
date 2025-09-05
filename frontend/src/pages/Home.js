@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Leaf, Package, Truck, Users, Star, ChevronRight } from 'lucide-react';
+import { Leaf, Package, Recycle, Users, Star, ChevronRight } from 'lucide-react';
 
 const Home = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -16,14 +16,14 @@ const Home = () => {
       description: "Revolutionary edible packaging solutions that reduce waste and protect the environment while keeping your food fresh."
     },
     {
-      icon: <Truck size={48} />,
-      title: "Food Truck Services",
-      description: "Delicious, sustainable meals served from our eco-friendly food truck using our own biodegradable packaging."
+      icon: <Recycle size={48} />,
+      title: "Sustainable Materials",
+      description: "Made from 100% natural materials including seaweed extracts, plant proteins, and agricultural waste that completely decompose."
     },
     {
       icon: <Leaf size={48} />,
       title: "100% Eco-Friendly",
-      description: "Every product and service is designed with sustainability in mind, contributing to a healthier planet for future generations."
+      description: "Every product is designed with sustainability in mind, contributing to a healthier planet for future generations."
     }
   ];
 
@@ -36,8 +36,8 @@ const Home = () => {
     },
     {
       name: "Mike Chen",
-      role: "Event Coordinator",
-      content: "The food truck service was perfect for our corporate event. Great food and the packaging was impressively sustainable.",
+      role: "Cafe Manager",
+      content: "The packaging quality is exceptional and our environmental impact has decreased significantly since switching to MagoMeal.",
       rating: 5
     },
     {
@@ -59,8 +59,8 @@ const Home = () => {
               <span style={{ color: 'var(--brand-hover)' }}>Feed Your Roots</span>
             </h1>
             <p className="body-large hero-description">
-              Discover revolutionary biodegradable edible packaging solutions and sustainable food truck services 
-              that nourish both people and planet.
+              Discover revolutionary biodegradable edible packaging solutions that nourish both people and planet. 
+              Leading the sustainable packaging revolution with innovative, eco-friendly materials.
             </p>
             <div className="hero-actions">
               <Link to="/products" className="btn-primary">
@@ -80,7 +80,7 @@ const Home = () => {
           <div className="section-header">
             <h2 className="heading-1">Our Sustainable Solutions</h2>
             <p className="body-large">
-              Leading the way in eco-friendly food packaging and services
+              Leading the way in eco-friendly packaging innovations
             </p>
           </div>
           
@@ -103,15 +103,15 @@ const Home = () => {
         <div className="container">
           <div className="stats-grid">
             <div className="stat-card">
-              <div className="stat-number display-medium">10,000+</div>
+              <div className="stat-number display-medium">50,000+</div>
               <div className="stat-label body-medium">Packages Delivered</div>
             </div>
             <div className="stat-card">
-              <div className="stat-number display-medium">95%</div>
+              <div className="stat-number display-medium">98%</div>
               <div className="stat-label body-medium">Customer Satisfaction</div>
             </div>
             <div className="stat-card">
-              <div className="stat-number display-medium">50+</div>
+              <div className="stat-number display-medium">200+</div>
               <div className="stat-label body-medium">Business Partners</div>
             </div>
             <div className="stat-card">
@@ -159,7 +159,7 @@ const Home = () => {
           <div className="cta-content">
             <h2 className="heading-1">Ready to Go Green?</h2>
             <p className="body-large">
-              Join the sustainable packaging revolution and make a positive impact on the environment.
+              Join the sustainable packaging revolution and make a positive impact on the environment with our innovative solutions.
             </p>
             <div className="cta-actions">
               <Link to="/contact" className="btn-primary">
