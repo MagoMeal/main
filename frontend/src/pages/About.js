@@ -65,15 +65,10 @@ const About = () => {
             <div className="story-text">
               <h2 className="heading-1">Our Story</h2>
               <p className="body-medium">
-                Founded in 2020, MagoMeal emerged from a simple yet powerful vision: to create packaging 
-                solutions that could be consumed along with the food they protect. Our founders, 
-                frustrated by the environmental impact of traditional packaging, set out to develop 
-                innovative edible materials that would change the industry forever.
+                Established in 2025, MagoMeal was born from a bold idea: packaging that doesn't just protect food—but becomes part of the meal itself.
               </p>
               <p className="body-medium">
-                Today, we're proud to offer revolutionary edible packaging solutions that embody our 
-                commitment to environmental stewardship while delivering exceptional quality and functionality. 
-                Our products serve restaurants, cafes, and food businesses worldwide.
+                Today, we proudly deliver innovative edible packaging solutions that reflect our dedication to sustainability without compromising on quality or practicality. From restaurants and cafés to food businesses across the globe, our products redefine the way food is served and enjoyed.
               </p>
             </div>
           </div>
