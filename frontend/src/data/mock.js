@@ -22,7 +22,7 @@ export const mockData = {
     { number: "50,000+", label: "Packages Delivered" },
     { number: "98%", label: "Customer Satisfaction" },
     { number: "200+", label: "Business Partners" },
-    { number: "100%", label: "Biodegradable" }
+    { number: "100%", label: "Edible" }
   ],
 
   // Customer Testimonials
