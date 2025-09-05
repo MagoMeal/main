@@ -52,7 +52,7 @@ const About = () => {
             <h1 className="display-medium">About MagoMeal</h1>
             <p className="body-large">
               We're on a mission to revolutionize the food packaging industry with sustainable, 
-              biodegradable solutions that protect both your products and our planet.
+              edible solutions that protect both your products and our planet.
             </p>
           </div>
         </div>
