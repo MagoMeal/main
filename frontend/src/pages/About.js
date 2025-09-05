@@ -34,7 +34,7 @@ const About = () => {
     {
       name: "Maya Patel",
       role: "Head of Innovation",
-      description: "Food scientist specializing in biodegradable materials and edible packaging development."
+      description: "Food scientist specializing in edible materials and edible packaging development."
     },
     {
       name: "Jordan Kim",
