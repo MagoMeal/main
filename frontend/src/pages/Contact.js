@@ -71,12 +71,12 @@ const Contact = () => {
       answer: "Our minimum order quantity varies by product type. Generally, it ranges from 500-1000 units. We also offer sample packs for testing."
     },
     {
-      question: "Where does your food truck operate?",
-      answer: "We currently operate in the downtown area with regular stops at business districts, university campuses, and community events. Check our Products & Services page for our weekly schedule."
+      question: "How long does the packaging last before decomposing?",
+      answer: "Our packaging is designed to maintain integrity during normal use and storage, then compost completely within 90 days in appropriate composting conditions."
     },
     {
-      question: "Do you offer catering services?",
-      answer: "Yes! We provide catering services for corporate events, private parties, and community gatherings. All food is served in our biodegradable packaging."
+      question: "Do you offer bulk pricing for large orders?",
+      answer: "Yes! We provide competitive bulk pricing and special rates for large volume orders. Contact our sales team for custom pricing information."
     }
   ];
 
