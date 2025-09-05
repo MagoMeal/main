@@ -37,7 +37,7 @@ const Home = () => {
     {
       name: "Mike Chen",
       role: "Cafe Manager",
-      content: "The packaging quality is exceptional and our environmental impact has decreased significantly since switching to MagoMeal.",
+      content: "MagoMeal's edible packaging has transformed our business. The quality is exceptional and our environmental impact has decreased significantly.",
       rating: 5
     },
     {
