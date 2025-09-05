@@ -54,6 +54,15 @@ const Home = () => {
       <section className="hero-section">
         <div className="container">
           <div className={`hero-content ${isVisible ? 'animated fadeIn' : 'animated'}`}>
+            {/* Centered Logo */}
+            <div className="hero-logo">
+              <img 
+                src="https://customer-assets.emergentagent.com/job_1599ee33-608a-4f29-a948-5fbb4b56f909/artifacts/scyoowtk_MagoMeal_Logo.jpeg" 
+                alt="MagoMeal Logo" 
+                className="hero-logo-image"
+              />
+            </div>
+            
             <h1 className="display-large">
               Fuel Your Day, <br />
               <span style={{ color: 'var(--brand-hover)' }}>Feed Your Roots</span>
