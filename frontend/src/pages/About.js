@@ -68,7 +68,7 @@ const About = () => {
                 Founded in 2020, MagoMeal emerged from a simple yet powerful vision: to create packaging 
                 solutions that could be consumed along with the food they protect. Our founders, 
                 frustrated by the environmental impact of traditional packaging, set out to develop 
-                innovative biodegradable materials that would change the industry forever.
+                innovative edible materials that would change the industry forever.
               </p>
               <p className="body-medium">
                 Today, we're proud to offer revolutionary edible packaging solutions that embody our 
