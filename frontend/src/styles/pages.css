@@ -965,9 +965,18 @@
     position: fixed;
   }
   
+  .header-logo-section {
+    margin-bottom: 12px;
+  }
+  
+  .logo-image {
+    height: 50px;
+  }
+  
   .nav-wrapper {
     border-radius: 0;
     padding: 16px;
+    justify-content: space-between;
   }
   
   .desktop-nav {
@@ -983,8 +992,11 @@
   }
   
   .home-page,
-  .about-page {
-    padding-top: 80px;
+  .about-page,
+  .products-page,
+  .blog-page,
+  .contact-page {
+    padding-top: 140px;
   }
   
   .hero-actions,
