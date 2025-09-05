@@ -139,7 +139,7 @@ export const mockData = {
       author: "Alex Rodriguez",
       date: "February 28, 2024",
       readTime: "3 min read",
-      category: "Case Study"
+      category: "Business"
     },
     {
       id: 5,
