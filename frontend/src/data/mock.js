@@ -173,7 +173,7 @@ export const mockData = {
       id: 2,
       name: "Maya Patel",
       role: "Head of Innovation",
-      description: "Food scientist specializing in biodegradable materials and edible packaging development."
+      description: "Food scientist specializing in edible materials and edible packaging development."
     },
     {
       id: 3,
