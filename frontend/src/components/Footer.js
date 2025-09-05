@@ -16,7 +16,7 @@ const Footer = () => {
                 style={{ height: '50px', width: 'auto', marginBottom: '16px' }}
               />
               <p className="body-medium">
-                Fuel Your Day, Feed Your Roots - Leading the sustainable packaging revolution with innovative biodegradable solutions.
+                Fuel Your Day, Feed Your Roots - Leading the sustainable packaging revolution with innovative edible solutions.
               </p>
             </div>
           </div>
