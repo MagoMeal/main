@@ -59,8 +59,8 @@ const Contact = () => {
 
   const faqs = [
     {
-      question: "What makes your packaging truly biodegradable?",
-      answer: "Our packaging is made from 100% natural materials including seaweed extracts, plant proteins, and agricultural waste. They completely decompose within 90 days in composting conditions."
+      question: "What makes your packaging truly edible?",
+      answer: "Our packaging is made from 100% natural materials including seaweed extracts, plant proteins, and agricultural waste. They can be safely consumed or will decompose completely within 90 days in composting conditions."
     },
     {
       question: "Can I customize the packaging for my brand?",
