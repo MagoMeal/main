@@ -1059,3 +1059,21 @@
     font-size: 14px;
   }
 }
+
+/* Coming Soon Section Styles */
+.coming-soon-section {
+  display: flex;
+  justify-content: center;
+  margin: var(--spacing-giant) 0;
+}
+
+.coming-soon-card {
+  max-width: 600px;
+  text-align: center;
+  padding: var(--spacing-giant);
+}
+
+.coming-soon-card h3 {
+  margin-bottom: var(--spacing-medium);
+  color: var(--brand-dark);
+}
