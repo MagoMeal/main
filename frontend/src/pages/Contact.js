@@ -174,7 +174,7 @@ const Contact = () => {
                     className="form-select"
                     required
                   >
-                    <option value="packaging">Biodegradable Packaging Inquiry</option>
+                    <option value="packaging">Edible Packaging Inquiry</option>
                     <option value="custom">Custom Packaging Solutions</option>
                     <option value="bulk">Bulk Order Inquiry</option>
                     <option value="partnership">Partnership Opportunity</option>
