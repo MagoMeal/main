@@ -63,33 +63,22 @@ const Products = () => {
             </p>
           </div>
 
-          <div className="products-grid">
-            {packagingProducts.map((product, index) => (
-              <div key={index} className="product-card network-card">
-                <div className="product-header">
-                  <Package size={40} style={{ color: 'var(--brand-dark)' }} />
-                  <h3 className="network-card-title">{product.name}</h3>
-                </div>
-                <p className="network-card-content">{product.description}</p>
-                
-                <div className="product-features">
-                  {product.features.map((feature, idx) => (
-                    <div key={idx} className="feature-item">
-                      <CheckCircle size={16} style={{ color: 'var(--brand-hover)' }} />
-                      <span className="body-small">{feature}</span>
-                    </div>
-                  ))}
-                </div>
-                
-                <div className="product-price">
-                  <span className="body-medium" style={{ fontWeight: '600' }}>{product.price}</span>
-                </div>
-                
-                <button className="btn-primary product-cta">
-                  Request Quote
-                </button>
-              </div>
-            ))}
+          {/* Coming Soon Message */}
+          <div className="coming-soon-section">
+            <div className="coming-soon-card network-card">
+              <Package size={64} style={{ color: 'var(--brand-dark)', marginBottom: 'var(--spacing-medium)' }} />
+              <h3 className="heading-2">Product Catalog Coming Soon</h3>
+              <p className="body-large">
+                We're preparing detailed information about our complete range of edible packaging solutions. 
+                Our innovative products will be showcased here very soon.
+              </p>
+              <p className="body-medium" style={{ marginTop: 'var(--spacing-medium)', color: 'var(--brand-hover)' }}>
+                Stay tuned for updates on our revolutionary edible packaging lineup!
+              </p>
+              <button className="btn-primary" style={{ marginTop: 'var(--spacing-large)' }}>
+                Contact Us for Early Access
+              </button>
+            </div>
           </div>
 
           {/* Benefits Section */}
