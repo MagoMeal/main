@@ -152,7 +152,7 @@ export const mockData = {
     },
     {
       id: 6,
-      title: "Global Impact: How Biodegradable Packaging is Changing the World",
+      title: "Global Impact: How Edible Packaging is Changing the World",
       excerpt: "Exploring the worldwide adoption of sustainable packaging and its environmental benefits.",
       author: "Jordan Kim",
       date: "February 15, 2024",
