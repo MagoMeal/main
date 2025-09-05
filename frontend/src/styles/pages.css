@@ -403,6 +403,22 @@
   margin-bottom: var(--spacing-medium);
 }
 
+.team-photo {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto;
+  display: block;
+  box-shadow: 0 4px 16px rgba(0, 69, 52, 0.15);
+  transition: all 0.3s ease;
+}
+
+.team-photo:hover {
+  transform: scale(1.05);
+  box-shadow: 0 6px 24px rgba(0, 69, 52, 0.25);
+}
+
 .avatar-placeholder {
   width: 80px;
   height: 80px;
