@@ -107,60 +107,7 @@ const Home = () => {
         </div>
       </section>
 
-      {/* Stats Section */}
-      <section className="stats-section">
-        <div className="container">
-          <div className="stats-grid">
-            <div className="stat-card">
-              <div className="stat-number display-medium">50,000+</div>
-              <div className="stat-label body-medium">Packages Delivered</div>
-            </div>
-            <div className="stat-card">
-              <div className="stat-number display-medium">98%</div>
-              <div className="stat-label body-medium">Customer Satisfaction</div>
-            </div>
-            <div className="stat-card">
-              <div className="stat-number display-medium">200+</div>
-              <div className="stat-label body-medium">Business Partners</div>
-            </div>
-            <div className="stat-card">
-              <div className="stat-number display-medium">100%</div>
-              <div className="stat-label body-medium">Edible</div>
-            </div>
-          </div>
-        </div>
-      </section>
 
-      {/* Testimonials Section */}
-      <section className="testimonials-section">
-        <div className="container">
-          <div className="section-header">
-            <h2 className="heading-1">What Our Customers Say</h2>
-            <p className="body-large">
-              Trusted by businesses committed to sustainability
-            </p>
-          </div>
-          
-          <div className="testimonials-grid">
-            {testimonials.map((testimonial, index) => (
-              <div key={index} className="testimonial-card network-card">
-                <div className="testimonial-rating">
-                  {[...Array(testimonial.rating)].map((_, i) => (
-                    <Star key={i} size={20} fill="var(--brand-dark)" color="var(--brand-dark)" />
-                  ))}
-                </div>
-                <p className="testimonial-content body-medium">
-                  "{testimonial.content}"
-                </p>
-                <div className="testimonial-author">
-                  <strong className="body-medium">{testimonial.name}</strong>
-                  <span className="body-small">{testimonial.role}</span>
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* CTA Section */}
       <section className="cta-section">
