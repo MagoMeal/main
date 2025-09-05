@@ -1,4 +1,4 @@
-// Mock data for MagoMeal website - Biodegradable Packaging Solutions
+// Mock data for MagoMeal website - Edible Packaging Solutions
 // This file contains all the mock data used throughout the application
 // Once backend is implemented, this data will be replaced with API calls
 
