@@ -117,7 +117,7 @@ export const mockData = {
     {
       id: 2,
       title: "From Waste to Wonder: How Agricultural Byproducts Become Packaging",
-      excerpt: "Learn about our innovative process of transforming agricultural waste into high-quality biodegradable packaging.",
+      excerpt: "Learn about our innovative process of transforming agricultural waste into high-quality edible packaging.",
       author: "Maya Patel",
       date: "March 10, 2024",
       readTime: "4 min read",
