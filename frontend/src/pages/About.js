@@ -148,7 +148,7 @@ const About = () => {
               </div>
               <div className="mission-stat">
                 <h3 className="display-small">100%</h3>
-                <p className="body-medium">Biodegradable</p>
+                <p className="body-medium">100% Edible</p>
               </div>
               <div className="mission-stat">
                 <h3 className="display-small">∞</h3>
