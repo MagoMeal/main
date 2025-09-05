@@ -7,7 +7,7 @@ export const mockData = {
   company: {
     name: "MagoMeal",
     tagline: "Fuel Your Day, Feed Your Roots",
-    description: "Leading the sustainable packaging revolution with innovative biodegradable solutions",
+    description: "Leading the sustainable packaging revolution with innovative edible solutions",
     logo: "https://customer-assets.emergentagent.com/job_1599ee33-608a-4f29-a948-5fbb4b56f909/artifacts/scyoowtk_MagoMeal_Logo.jpeg",
     contact: {
       email: "info@magomeal.com",
