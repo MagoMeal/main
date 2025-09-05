@@ -103,9 +103,11 @@ const About = () => {
             {team.map((member, index) => (
               <div key={index} className="team-card network-card">
                 <div className="team-avatar">
-                  <div className="avatar-placeholder">
-                    {member.name.split(' ').map(n => n[0]).join('')}
-                  </div>
+                  <img 
+                    src="https://customer-assets.emergentagent.com/job_green-packaging-2/artifacts/vbavz0zj_benamor.jpg"
+                    alt={member.name}
+                    className="team-photo"
+                  />
                 </div>
                 <h3 className="heading-3">{member.name}</h3>
                 <p className="body-medium team-role">{member.role}</p>
