@@ -200,6 +200,15 @@
   margin: 0 auto;
 }
 
+/* Hero tagline styles */
+.hero-tagline {
+  font-size: clamp(1.5rem, 3vw, 2.5rem);
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--text-primary);
+  margin: var(--spacing-large) 0 var(--spacing-medium);
+}
+
 /* Hero Logo Styles */
 .hero-logo {
   display: flex;
