@@ -16,7 +16,7 @@ const About = () => {
     {
       icon: <Target size={48} />,
       title: "Innovation Driven",
-      description: "Continuously developing cutting-edge biodegradable solutions to revolutionize the packaging industry."
+      description: "Continuously developing cutting-edge edible solutions to revolutionize the packaging industry."
     },
     {
       icon: <Award size={48} />,
