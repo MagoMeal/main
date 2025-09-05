@@ -4,37 +4,10 @@
 .network-header {
   background: var(--bg-page);
   position: absolute;
-  top: 16px;
+  top: 32px;
   width: 100%;
   z-index: 99999;
   padding: 0 12px;
-}
-
-/* Logo Section - Centered and Prominent */
-.header-logo-section {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 16px;
-}
-
-.main-logo {
-  display: inline-block;
-  padding: 16px;
-  background: white;
-  border-radius: 50%;
-  box-shadow: 0 4px 12px rgba(0, 69, 52, 0.15);
-  transition: all 0.3s ease;
-}
-
-.main-logo:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(0, 69, 52, 0.25);
-}
-
-.logo-image {
-  height: 60px;
-  width: auto;
-  display: block;
 }
 
 .nav-wrapper {
