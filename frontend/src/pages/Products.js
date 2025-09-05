@@ -46,7 +46,7 @@ const Products = () => {
       {/* Hero Section */}
       <section className="products-hero">
         <div className="container">
-          <h1 className="display-medium">Biodegradable Packaging Solutions</h1>
+          <h1 className="display-medium">Edible Packaging Solutions</h1>
           <p className="body-large">
             Discover our innovative sustainable packaging solutions designed to protect your food and our planet
           </p>
