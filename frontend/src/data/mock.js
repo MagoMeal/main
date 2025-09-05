@@ -215,7 +215,7 @@ export const mockData = {
   // Contact Form Options
   contactFormOptions: {
     inquiryTypes: [
-      { value: 'packaging', label: 'Biodegradable Packaging Inquiry' },
+      { value: 'packaging', label: 'Edible Packaging Inquiry' },
       { value: 'custom', label: 'Custom Packaging Solutions' },
       { value: 'bulk', label: 'Bulk Order Inquiry' },
       { value: 'partnership', label: 'Partnership Opportunity' },
