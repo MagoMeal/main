@@ -125,7 +125,7 @@ const Home = () => {
             </div>
             <div className="stat-card">
               <div className="stat-number display-medium">100%</div>
-              <div className="stat-label body-medium">Biodegradable</div>
+              <div className="stat-label body-medium">Edible</div>
             </div>
           </div>
         </div>
