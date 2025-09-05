@@ -29,7 +29,7 @@ const About = () => {
     {
       name: "Ben Amor",
       role: "Founder & CEO",
-      description: "Environmental engineer with 15+ years experience in sustainable packaging solutions."
+      description: "Engineer"
     }
   ];
 
