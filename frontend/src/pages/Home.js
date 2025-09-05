@@ -59,7 +59,7 @@ const Home = () => {
               <span style={{ color: 'var(--brand-hover)' }}>Feed Your Roots</span>
             </h1>
             <p className="body-large hero-description">
-              Discover revolutionary biodegradable edible packaging solutions that nourish both people and planet. 
+              Discover revolutionary edible packaging solutions that nourish both people and planet. 
               Leading the sustainable packaging revolution with innovative, eco-friendly materials.
             </p>
             <div className="hero-actions">
