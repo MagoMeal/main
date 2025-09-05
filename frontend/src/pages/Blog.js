@@ -24,8 +24,8 @@ const Blog = () => {
     },
     {
       id: 3,
-      title: "5 Benefits of Biodegradable Packaging for Your Business",
-      excerpt: "Explore the business advantages of switching to biodegradable packaging solutions.",
+      title: "5 Benefits of Edible Packaging for Your Business",
+      excerpt: "Explore the business advantages of switching to edible packaging solutions.",
       author: "Jordan Kim",
       date: "March 5, 2024",
       readTime: "6 min read",
