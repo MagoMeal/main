@@ -174,9 +174,9 @@ const Contact = () => {
                     className="form-select"
                     required
                   >
-                    <option value="packaging">Biodegradable Packaging</option>
-                    <option value="foodtruck">Food Truck Services</option>
-                    <option value="catering">Catering Inquiry</option>
+                    <option value="packaging">Biodegradable Packaging Inquiry</option>
+                    <option value="custom">Custom Packaging Solutions</option>
+                    <option value="bulk">Bulk Order Inquiry</option>
                     <option value="partnership">Partnership Opportunity</option>
                     <option value="general">General Question</option>
                   </select>
