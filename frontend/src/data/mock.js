@@ -157,7 +157,7 @@ export const mockData = {
       author: "Jordan Kim",
       date: "February 15, 2024",
       readTime: "2 min read",
-      category: "News"
+      category: "Innovation"
     }
   ],
 
