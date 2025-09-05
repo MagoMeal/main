@@ -12,7 +12,7 @@ const Home = () => {
   const features = [
     {
       icon: <Package size={48} />,
-      title: "Biodegradable Packaging",
+      title: "Edible Packaging",
       description: "Revolutionary edible packaging solutions that reduce waste and protect the environment while keeping your food fresh."
     },
     {
