@@ -27,19 +27,9 @@ const About = () => {
 
   const team = [
     {
-      name: "Alex Rodriguez",
+      name: "Ben Amor",
       role: "Founder & CEO",
       description: "Environmental engineer with 15+ years experience in sustainable packaging solutions."
-    },
-    {
-      name: "Maya Patel",
-      role: "Head of Innovation",
-      description: "Food scientist specializing in edible materials and edible packaging development."
-    },
-    {
-      name: "Jordan Kim",
-      role: "Operations Director",
-      description: "Expert in sustainable business operations and supply chain management."
     }
   ];
 
