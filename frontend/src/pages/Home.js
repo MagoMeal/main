@@ -9,6 +9,24 @@ const Home = () => {
     setIsVisible(true);
   }, []);
 
+  const features = [
+    {
+      icon: <Package size={48} />,
+      title: "Edible Packaging",
+      description: "Revolutionary edible packaging solutions that reduce waste and protect the environment while keeping your food fresh."
+    },
+    {
+      icon: <Recycle size={48} />,
+      title: "Sustainable Materials",
+      description: "Made from 100% natural materials including seaweed extracts, plant proteins, and agricultural waste that completely decompose."
+    },
+    {
+      icon: <Leaf size={48} />,
+      title: "100% Eco-Friendly",
+      description: "Every product is designed with sustainability in mind, contributing to a healthier planet for future generations."
+    }
+  ];
+
   return (
     <div className="home-page">
       {/* Hero Section */}
