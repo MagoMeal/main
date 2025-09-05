@@ -60,7 +60,7 @@ const Blog = () => {
     }
   ];
 
-  const categories = ["All", "Innovation", "Sustainability", "Business", "Case Study", "Technology", "News"];
+  const categories = ["All", "Innovation", "Business", "Technology"];
   const [selectedCategory, setSelectedCategory] = React.useState("All");
 
   const filteredPosts = selectedCategory === "All" 
