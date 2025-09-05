@@ -971,14 +971,6 @@
     position: fixed;
   }
   
-  .header-logo-section {
-    margin-bottom: 12px;
-  }
-  
-  .logo-image {
-    height: 50px;
-  }
-  
   .nav-wrapper {
     border-radius: 0;
     padding: 16px;
@@ -1002,7 +994,12 @@
   .products-page,
   .blog-page,
   .contact-page {
-    padding-top: 140px;
+    padding-top: 80px;
+  }
+  
+  .hero-logo-image {
+    height: 100px;
+    padding: 15px;
   }
   
   .hero-actions,
