@@ -42,9 +42,8 @@ const Home = () => {
               />
             </div>
             
-            <h1 className="display-large">
-              Fuel Your Day, <br />
-              <span style={{ color: 'var(--brand-hover)' }}>Feed Your Roots</span>
+            <h1 className="hero-tagline">
+              Fuel Your Day, Feed Your Roots
             </h1>
             <p className="body-large hero-description">
               Discover revolutionary edible packaging solutions that nourish both people and planet. 
