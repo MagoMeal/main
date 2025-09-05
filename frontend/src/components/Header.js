@@ -18,17 +18,6 @@ const Header = () => {
 
   return (
     <header className="network-header">
-      {/* Logo Section - Centered and Prominent */}
-      <div className="header-logo-section">
-        <Link to="/" className="main-logo">
-          <img 
-            src="https://customer-assets.emergentagent.com/job_1599ee33-608a-4f29-a948-5fbb4b56f909/artifacts/scyoowtk_MagoMeal_Logo.jpeg" 
-            alt="MagoMeal Logo" 
-            className="logo-image"
-          />
-        </Link>
-      </div>
-
       {/* Navigation Section */}
       <div className="nav-wrapper">
         {/* Desktop Navigation */}
