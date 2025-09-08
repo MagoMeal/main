@@ -3,61 +3,7 @@ import { Calendar, User, Clock, ChevronRight } from 'lucide-react';
 
 const Blog = () => {
   const blogPosts = [
-    {
-      id: 1,
-      title: "The Future of Sustainable Packaging: Edible Solutions",
-      excerpt: "Discover how edible packaging is revolutionizing the food industry and reducing environmental waste.",
-      author: "Alex Rodriguez",
-      date: "March 15, 2024",
-      readTime: "5 min read",
-      category: "Innovation",
-      featured: true
-    },
-    {
-      id: 2,
-      title: "Food Truck Sustainability: Our Journey to Zero Waste",
-      excerpt: "Learn about our food truck's commitment to sustainability and how we achieve zero waste operations.",
-      author: "Maya Patel",
-      date: "March 10, 2024",
-      readTime: "4 min read",
-      category: "Innovation"
-    },
-    {
-      id: 3,
-      title: "5 Benefits of Edible Packaging for Your Business",
-      excerpt: "Explore the business advantages of switching to edible packaging solutions.",
-      author: "Jordan Kim",
-      date: "March 5, 2024",
-      readTime: "6 min read",
-      category: "Business"
-    },
-    {
-      id: 4,
-      title: "Customer Spotlight: Green Restaurant's Success Story",
-      excerpt: "See how one restaurant reduced their environmental impact by 80% with our packaging solutions.",
-      author: "Alex Rodriguez",
-      date: "February 28, 2024",
-      readTime: "3 min read",
-      category: "Business"
-    },
-    {
-      id: 5,
-      title: "The Science Behind Edible Packaging Materials",
-      excerpt: "A deep dive into the innovative materials and processes that make our edible packaging possible.",
-      author: "Maya Patel",
-      date: "February 20, 2024",
-      readTime: "7 min read",
-      category: "Technology"
-    },
-    {
-      id: 6,
-      title: "Weekly Food Truck Update: New Locations Added",
-      excerpt: "We're expanding! Check out our new weekly stops and updated schedule for March.",
-      author: "Jordan Kim",
-      date: "February 15, 2024",
-      readTime: "2 min read",
-      category: "Innovation"
-    }
+
   ];
 
   const categories = ["All", "Innovation", "Business", "Technology"];
@@ -77,7 +23,7 @@ const Blog = () => {
         <div className="container">
           <h1 className="display-medium">Blog & News</h1>
           <p className="body-large">
-            Stay updated with the latest in sustainable packaging innovations, food truck adventures, 
+            Stay updated with the latest in Edible packaging innovations, food truck adventures, 
             and eco-friendly business practices.
           </p>
         </div>

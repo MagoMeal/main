@@ -217,11 +217,11 @@
 }
 
 .hero-logo-image {
-  height: 380px;
+  height: 480px;
   width: auto;
   background: white;
-  border-radius: 50%;
-  padding: 45px;
+  border-radius: 30%;
+  padding: 5px;
   box-shadow: 0 25px 100px rgba(0, 69, 52, 0.4);
   transition: all 0.4s ease;
   animation: logoFloat 3s ease-in-out infinite;

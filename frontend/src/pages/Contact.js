@@ -34,19 +34,19 @@ const Contact = () => {
     {
       icon: <Mail size={24} />,
       title: "Email Us",
-      details: "info@magomeal.com",
+      details: "info@magomeal.nl",
       subDetails: "We respond within 24 hours"
     },
     {
       icon: <Phone size={24} />,
       title: "Call Us",
-      details: "(555) 123-4567",
+      details: "",
       subDetails: "Mon-Fri, 9AM-6PM EST"
     },
     {
       icon: <MapPin size={24} />,
       title: "Visit Us",
-      details: "123 Eco Street, Green City, GC 12345",
+      details: "Rosmalen, The Nedherlands",
       subDetails: "By appointment only"
     },
     {
@@ -59,20 +59,12 @@ const Contact = () => {
 
   const faqs = [
     {
-      question: "What makes your packaging truly edible?",
-      answer: "Our packaging is made from 100% natural materials including seaweed extracts, plant proteins, and agricultural waste. They can be safely consumed or will decompose completely within 90 days in composting conditions."
-    },
-    {
       question: "Can I customize the packaging for my brand?",
       answer: "Absolutely! We offer custom printing, sizing, and even flavor options for our edible packaging. Contact us to discuss your specific branding needs."
     },
     {
       question: "What's the minimum order quantity?",
-      answer: "Our minimum order quantity varies by product type. Generally, it ranges from 500-1000 units. We also offer sample packs for testing."
-    },
-    {
-      question: "How long does the packaging last before decomposing?",
-      answer: "Our packaging is designed to maintain integrity during normal use and storage, then compost completely within 90 days in appropriate composting conditions."
+      answer: "No minimum order quantity :) "
     },
     {
       question: "Do you offer bulk pricing for large orders?",
@@ -89,7 +81,7 @@ const Contact = () => {
         <div className="container">
           <h1 className="display-medium">Get In Touch</h1>
           <p className="body-large">
-            Ready to join the sustainable packaging revolution? We'd love to hear from you!
+            Ready to join the Edible packaging revolution? We'd love to hear from you!
           </p>
         </div>
       </section>
@@ -119,7 +111,7 @@ const Contact = () => {
             <div className="form-header">
               <h2 className="heading-1">Send Us a Message</h2>
               <p className="body-large">
-                Whether you're interested in our packaging solutions or food truck services, 
+                If  you're interested in our Edible packaging solutions, 
                 we're here to help answer your questions.
               </p>
             </div>
@@ -174,11 +166,9 @@ const Contact = () => {
                     className="form-select"
                     required
                   >
-                    <option value="packaging">Edible Packaging Inquiry</option>
-                    <option value="custom">Custom Packaging Solutions</option>
+                    <option value="packaging">Edible Products Inquiry</option>
                     <option value="bulk">Bulk Order Inquiry</option>
-                    <option value="partnership">Partnership Opportunity</option>
-                    <option value="general">General Question</option>
+                    <option value="general">General Question to MagoMeal</option>
                   </select>
                 </div>
               </div>
@@ -246,8 +236,6 @@ const Contact = () => {
           <div className="cta-content">
             <h2 className="heading-1">Ready to Make a Change?</h2>
             <p className="body-large">
-              Join hundreds of businesses already making a positive environmental impact 
-              with our sustainable packaging solutions.
             </p>
             <div className="cta-actions">
               <button className="btn-primary">Request a Quote</button>

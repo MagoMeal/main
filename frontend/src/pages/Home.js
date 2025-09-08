@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Leaf, Package, Recycle, Users, Star, ChevronRight } from 'lucide-react';
+import MagoMealLogo from 'src/assets/MagoMeal_Logo.jpeg';
 
 const Home = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -36,7 +37,7 @@ const Home = () => {
             {/* Centered Logo */}
             <div className="hero-logo">
               <img 
-                src="https://customer-assets.emergentagent.com/job_1599ee33-608a-4f29-a948-5fbb4b56f909/artifacts/scyoowtk_MagoMeal_Logo.jpeg" 
+                src={MagoMealLogo}   
                 alt="MagoMeal Logo" 
                 className="hero-logo-image"
               />
@@ -47,7 +48,7 @@ const Home = () => {
             </h1>
             <p className="body-large hero-description">
               Discover revolutionary edible packaging solutions that nourish both people and planet. 
-              Leading the sustainable packaging revolution with innovative, eco-friendly materials.
+              Innovative & Sustainable Edible Products for the Benelux.
             </p>
             <div className="hero-actions">
               <Link to="/products" className="btn-primary">
@@ -67,7 +68,7 @@ const Home = () => {
           <div className="section-header">
             <h2 className="heading-1">Our Sustainable Solutions</h2>
             <p className="body-large">
-              Leading the way in eco-friendly packaging innovations
+              Innovative & Sustainable Edible Products for the Benelux
             </p>
           </div>
           
@@ -93,7 +94,7 @@ const Home = () => {
           <div className="cta-content">
             <h2 className="heading-1">Ready to Go Green?</h2>
             <p className="body-large">
-              Join the sustainable packaging revolution and make a positive impact on the environment with our innovative solutions.
+              Magomeal brings innovative, sustainable edible products to the Benelux market, join us in making a positive impact on the environment and local communities..
             </p>
             <div className="cta-actions">
               <Link to="/contact" className="btn-primary">

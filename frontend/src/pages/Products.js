@@ -48,7 +48,7 @@ const Products = () => {
         <div className="container">
           <h1 className="display-medium">Edible Packaging Solutions</h1>
           <p className="body-large">
-            Discover our innovative sustainable packaging solutions designed to protect your food and our planet
+            Bringing sustainable, innovative edible products to the Benelux market protecting both your business and the planet.
           </p>
         </div>
       </section>
@@ -59,7 +59,7 @@ const Products = () => {
           <div className="section-header">
             <h2 className="heading-1">Our Product Range</h2>
             <p className="body-large">
-              Revolutionary packaging that's as good for the planet as it is for your business
+              Edible products designed to protect the planet while adding value to your business.
             </p>
           </div>
 

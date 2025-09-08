@@ -1,5 +1,6 @@
 import React from 'react';
 import { Leaf, Users, Target, Award } from 'lucide-react';
+import membername from 'src/assets/benamor.jpg';
 
 const About = () => {
   const values = [
@@ -28,7 +29,7 @@ const About = () => {
   const team = [
     {
       name: "Ben Amor",
-      role: "Founder & CEO",
+      role: "Founder",
       description: "Engineer"
     }
   ];
@@ -55,7 +56,7 @@ const About = () => {
             <div className="story-text">
               <h2 className="heading-1">Our Story</h2>
               <p className="body-medium">
-                Established in 2025, MagoMeal was born from a bold idea: packaging that doesn't just protect food—but becomes part of the meal itself.
+                Established in 2025, MagoMeal was born from a bold idea: packaging that doesn't just protect food but becomes part of the meal itself.
               </p>
               <p className="body-medium">
                 Today, we proudly deliver innovative edible packaging solutions that reflect our dedication to sustainability without compromising on quality or practicality. From restaurants and cafés to food businesses across the globe, our products redefine the way food is served and enjoyed.
@@ -95,7 +96,7 @@ const About = () => {
           <div className="section-header">
             <h2 className="heading-1">Meet Our Team</h2>
             <p className="body-large">
-              Passionate experts dedicated to sustainable innovation
+              Dedicated to bringing sustainable edible products to the Benelux market
             </p>
           </div>
           
@@ -104,7 +105,7 @@ const About = () => {
               <div key={index} className="team-card network-card">
                 <div className="team-avatar">
                   <img 
-                    src="https://customer-assets.emergentagent.com/job_green-packaging-2/artifacts/vbavz0zj_benamor.jpg"
+                    src={membername}
                     alt={member.name}
                     className="team-photo"
                   />

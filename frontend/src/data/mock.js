@@ -166,7 +166,7 @@ export const mockData = {
     {
       id: 1,
       name: "Ben Amor",
-      role: "Founder & CEO",
+      role: "Founder",
       description: "Engineer"
     }
   ],

@@ -1,6 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Mail, Phone, Leaf, Package, Recycle } from 'lucide-react';
+import MagoMealLogo from 'src/assets/MagoMeal_Logo.jpeg';
 
 const Footer = () => {
   return (
@@ -11,12 +12,12 @@ const Footer = () => {
           <div className="footer-section">
             <div className="footer-logo">
               <img 
-                src="https://customer-assets.emergentagent.com/job_1599ee33-608a-4f29-a948-5fbb4b56f909/artifacts/scyoowtk_MagoMeal_Logo.jpeg" 
+                src={MagoMealLogo}  
                 alt="MagoMeal Logo" 
-                style={{ height: '50px', width: 'auto', marginBottom: '16px' }}
+                style={{ height: '250px', width: 'auto', marginBottom: '16px' }}
               />
               <p className="body-medium">
-                Fuel Your Day, Feed Your Roots - Leading the sustainable packaging revolution with innovative edible solutions.
+                Leading the sustainable packaging revolution with innovative edible solutions.
               </p>
             </div>
           </div>
@@ -39,8 +40,8 @@ const Footer = () => {
             <div className="footer-services">
               <div className="footer-service">
                 <Package size={20} />
-                <span>Edible Containers</span>
-              </div>
+                <span>Edible Packaging</span>
+              </div> {/* 
               <div className="footer-service">
                 <Recycle size={20} />
                 <span>Compostable Packaging</span>
@@ -48,7 +49,7 @@ const Footer = () => {
               <div className="footer-service">
                 <Leaf size={20} />
                 <span>Plant-Based Solutions</span>
-              </div>
+              </div>*/}
             </div>
           </div>
 
@@ -58,11 +59,11 @@ const Footer = () => {
             <div className="footer-contact">
               <div className="contact-item">
                 <Mail size={20} />
-                <span>info@magomeal.com</span>
+                <span>info@magomeal.nl</span>
               </div>
               <div className="contact-item">
                 <Phone size={20} />
-                <span>(555) 123-4567</span>
+                <span></span>
               </div>
             </div>
             
@@ -85,7 +86,7 @@ const Footer = () => {
         <div className="footer-bottom">
           <div className="footer-bottom-content">
             <p className="body-small">
-              © 2024 MagoMeal. All rights reserved. Committed to sustainable packaging solutions.
+              © 2025 MagoMeal. All rights reserved. Delivering innovative edible products to the Benelux.
             </p>
             <div className="footer-legal">
               <a href="#privacy" className="footer-link body-small">Privacy Policy</a>
