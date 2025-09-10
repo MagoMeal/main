@@ -30,6 +30,14 @@
   --spacing-giant: 64px;  /* Hero section spacing */
 }
 
+/* App.css */
+
+.cta-text {
+  margin: 16px 0;
+  font-size: 1.1rem;
+  color: #333;
+}
+
 /* Reset and Base Styles */
 * {
   box-sizing: border-box;

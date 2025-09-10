@@ -829,6 +829,36 @@
   font-size: 16px;
 }
 
+/* Shop Page Styles */
+.Shop-page {
+  padding-top: 100px;
+}
+
+.Shop-hero {
+  padding: var(--spacing-giant) 0;
+  text-align: center;
+  background: var(--bg-subtle);
+}
+
+.product-catalog {
+  padding: var(--spacing-giant) 0;
+}
+
+.product-item {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: var(--spacing-large);
+}
+
+.shop-filters {
+  text-align: center;
+}
+
+.cart-section {
+  margin-bottom: var(--spacing-small);
+}
+
+
 /* Contact Page Styles */
 .contact-page {
   padding-top: 100px;

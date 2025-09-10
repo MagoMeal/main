@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import { Mail, Phone, MapPin, Clock, Send, MessageSquare } from 'lucide-react';
+import '../App.css';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -10,6 +11,8 @@ const Contact = () => {
     message: ''
   });
 
+  const [loading, setLoading] = useState(false);
+
   const handleChange = (e) => {
     setFormData({
       ...formData,
@@ -17,17 +20,40 @@ const Contact = () => {
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
-    // Mock form submission
-    alert('Thank you for your message! We\'ll get back to you within 24 hours.');
-    setFormData({
-      name: '',
-      email: '',
-      company: '',
-      inquiryType: 'packaging',
-      message: ''
-    });
+    setLoading(true);
+
+    const form = new FormData();
+    form.append("name", formData.name);
+    form.append("email", formData.email);
+    form.append("company", formData.company);
+    form.append("inquiryType", formData.inquiryType);
+    form.append("message", formData.message);
+
+    try {
+      const response = await fetch("/send-mail.php", {
+        method: "POST",
+        body: form,
+      });
+      const result = await response.text();
+      if (result === "success") {
+       alert(`✅ Thank you, ${formData.name}! Your message has been sent.`);
+        setFormData({
+          name: '',
+          email: '',
+          company: '',
+          inquiryType: 'packaging',
+          message: ''
+        });
+      } else {
+        alert("❌ Oops! Something went wrong, please try again.");
+      }
+    } catch (error) {
+      alert("❌ Error sending message. Please try again later.");
+    } finally {
+      setLoading(false);
+    }
   };
 
   const contactInfo = [
@@ -46,7 +72,7 @@ const Contact = () => {
     {
       icon: <MapPin size={24} />,
       title: "Visit Us",
-      details: "Rosmalen, The Nedherlands",
+      details: "Rosmalen, The Netherlands",
       subDetails: "By appointment only"
     },
     {
@@ -111,8 +137,7 @@ const Contact = () => {
             <div className="form-header">
               <h2 className="heading-1">Send Us a Message</h2>
               <p className="body-large">
-                If  you're interested in our Edible packaging solutions, 
-                we're here to help answer your questions.
+                If you're interested in our Edible packaging solutions, we're here to help answer your questions.
               </p>
             </div>
 
@@ -187,9 +212,9 @@ const Contact = () => {
                 ></textarea>
               </div>
 
-              <button type="submit" className="btn-primary form-submit">
+              <button type="submit" className="btn-primary form-submit" disabled={loading}>
                 <Send size={20} />
-                Send Message
+                {loading ? 'Sending...' : 'Send Message'}
               </button>
             </form>
           </div>
@@ -231,19 +256,20 @@ const Contact = () => {
       </section>
 
       {/* CTA Section */}
-      <section className="contact-cta-section">
-        <div className="container">
-          <div className="cta-content">
-            <h2 className="heading-1">Ready to Make a Change?</h2>
-            <p className="body-large">
-            </p>
-            <div className="cta-actions">
-              <button className="btn-primary">Request a Quote</button>
-              <button className="btn-secondary">Schedule a Demo</button>
-            </div>
-          </div>
-        </div>
-      </section>
+<section className="contact-cta-section">
+  <div className="container">
+    <div className="cta-content">
+      <h2 className="heading-1">Ready to Make a Change?</h2>
+      <p className="cta-text">
+        Discover the taste and innovation of our edible products. Book a demo now and let us bring a hands-on experience to your café, restaurant, or business.
+      </p>
+      <div className="cta-actions">
+        <button className="btn-primary">Request a Quote</button>
+        <button className="btn-secondary">Schedule a Demo</button>
+      </div>
+    </div>
+  </div>
+</section>
     </div>
   );
 };

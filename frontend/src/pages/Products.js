@@ -75,9 +75,13 @@ const Products = () => {
               <p className="body-medium" style={{ marginTop: 'var(--spacing-medium)', color: 'var(--brand-hover)' }}>
                 Stay tuned for updates on our revolutionary edible packaging lineup!
               </p>
-              <button className="btn-primary" style={{ marginTop: 'var(--spacing-large)' }}>
+              <a
+                href="mailto:info@magomeal.nl?subject=Early%20Access%20Request"
+                className="btn-primary"
+                style={{ marginTop: 'var(--spacing-large)', display: 'inline-block' }}
+              >
                 Contact Us for Early Access
-              </button>
+              </a>
             </div>
           </div>
 
@@ -111,7 +115,13 @@ const Products = () => {
                 We offer custom packaging solutions tailored to your specific business needs. 
                 From branding to specialized sizes, we can create the perfect sustainable packaging for your business.
               </p>
-              <button className="btn-primary">Get Custom Quote</button>
+              <a
+                href="mailto:info@magomeal.nl?subject=Custom%20Quote%20Request"
+                className="btn-primary"
+                style={{ display: 'inline-block' }}
+              >
+                Get Custom Quote
+              </a>
             </div>
           </div>
         </div>
