@@ -1639,9 +1639,28 @@
     padding-top: 80px;
   }
   
+  .social-media-section {
+    padding: var(--spacing-small) 0;
+    margin-top: 80px;
+  }
+  
+  .social-icons-container {
+    gap: var(--spacing-medium);
+  }
+  
+  .social-icon {
+    width: 45px;
+    height: 45px;
+  }
+  
+  .social-icon svg {
+    width: 20px;
+    height: 20px;
+  }
+  
   .top-tagline-section {
     padding: var(--spacing-medium) 0;
-    margin-top: 80px;
+    margin-top: var(--spacing-small);
   }
   
   .tagline-container {
@@ -1656,12 +1675,16 @@
   }
   
   .animated-tagline {
-    font-size: clamp(1.4rem, 5vw, 2.2rem);
+    font-size: clamp(1.2rem, 4vw, 1.8rem);
     gap: 0.2em;
   }
   
   .tagline-word {
     margin-bottom: 0.1em;
+  }
+  
+  .giant-question-mark {
+    font-size: clamp(2.5rem, 10vw, 4rem);
   }
 
   .hero-combined-box {
