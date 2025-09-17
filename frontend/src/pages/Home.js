@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Leaf, Package, Recycle, Users, Star, ChevronRight } from 'lucide-react';
-import MagoMealLogo from 'src/assets/new_MagoMeal_Logo.jpeg';
+import MagoMealLogo from '../assets/new_MagoMeal_Logo.jpeg';
 
 const Home = () => {
   const [isVisible, setIsVisible] = useState(false);
