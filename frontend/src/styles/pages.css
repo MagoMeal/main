@@ -514,6 +514,62 @@
   animation: leafFloat9 5.2s ease-in-out infinite;
 }
 
+/* Additional Leafs to Fill More Space */
+.hero-combined-box .leaf-decoration-8 {
+  top: 170px;
+  right: 120px;
+  width: 75px;
+  height: 75px;
+  background: url('https://customer-assets.emergentagent.com/job_github-builder-5/artifacts/26x9qjpe_single_leaf.png') no-repeat center;
+  background-size: contain;
+  transform: rotate(-60deg);
+  animation: leafFloat10 4.8s ease-in-out infinite;
+}
+
+.hero-combined-box .leaf-decoration-9 {
+  bottom: 100px;
+  left: 80px;
+  width: 95px;
+  height: 95px;
+  background: url('https://customer-assets.emergentagent.com/job_github-builder-5/artifacts/0f9mi8jx_leafs_magomeal.png') no-repeat center;
+  background-size: contain;
+  transform: rotate(150deg);
+  animation: leafFloat11 3.6s ease-in-out infinite;
+}
+
+.hero-combined-box .leaf-decoration-10 {
+  top: 60px;
+  left: 120px;
+  width: 85px;
+  height: 85px;
+  background: url('https://customer-assets.emergentagent.com/job_github-builder-5/artifacts/drlkht81_single_leaf_mmagomeal.png') no-repeat center;
+  background-size: contain;
+  transform: rotate(-100deg);
+  animation: leafFloat12 5.8s ease-in-out infinite;
+}
+
+.hero-combined-box .leaf-decoration-11 {
+  bottom: 50px;
+  right: 200px;
+  width: 70px;
+  height: 70px;
+  background: url('https://customer-assets.emergentagent.com/job_github-builder-5/artifacts/2na14pvl_img%20%2839%29.png') no-repeat center;
+  background-size: contain;
+  transform: rotate(200deg);
+  animation: leafFloat13 4.1s ease-in-out infinite;
+}
+
+.hero-combined-box .leaf-decoration-12 {
+  top: 100px;
+  right: 180px;
+  width: 80px;
+  height: 80px;
+  background: url('https://customer-assets.emergentagent.com/job_github-builder-5/artifacts/26x9qjpe_single_leaf.png') no-repeat center;
+  background-size: contain;
+  transform: rotate(75deg);
+  animation: leafFloat14 6.2s ease-in-out infinite;
+}
+
 /* Hover Effects for Leafs */
 .hero-combined-box:hover::before,
 .hero-combined-box:hover::after,
