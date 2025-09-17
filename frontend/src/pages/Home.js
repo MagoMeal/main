@@ -50,6 +50,17 @@ const Home = () => {
               Discover revolutionary edible packaging solutions that nourish both people and planet. 
               Innovative & Sustainable Edible Products for the Benelux.
             </p>
+            
+            {/* Cupffee Product Showcase */}
+            <div className={`cupffee-showcase ${isVisible ? 'animated slideInUp' : 'animated'}`}>
+              <img 
+                src="https://customer-assets.emergentagent.com/job_github-builder-5/artifacts/bd7p45rh_cupffee_by_magomeal.png"
+                alt="Cupffee by MagoMeal - Edible Coffee Cups" 
+                className="cupffee-image"
+              />
+              <p className="cupffee-tagline">Nice to eat you!</p>
+            </div>
+            
             <div className="hero-actions">
               <Link to="/products" className="btn-primary">
                 Explore Our Products <ChevronRight size={20} />
