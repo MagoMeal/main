@@ -316,12 +316,13 @@
 
 .animated-tagline {
   flex: 1;
-  font-size: clamp(1.8rem, 4vw, 3.2rem);
+  font-size: clamp(1.4rem, 3vw, 2.4rem);
   font-weight: 700;
   line-height: 1.2;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  align-items: baseline;
   gap: 0.3em;
 }
 
