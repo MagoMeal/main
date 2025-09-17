@@ -30,6 +30,24 @@ const Home = () => {
 
   return (
     <div className="home-page">
+      {/* Animated Top Tagline */}
+      <section className="top-tagline-section">
+        <div className="container">
+          <div className={`animated-tagline ${isVisible ? 'start-animation' : ''}`}>
+            <span className="tagline-word" data-word="Why">Why</span>
+            <span className="tagline-word" data-word="throw">throw</span>
+            <span className="tagline-word" data-word="plastic">plastic</span>
+            <span className="tagline-word" data-word="away">away</span>
+            <span className="tagline-word" data-word="when">when</span>
+            <span className="tagline-word" data-word="you">you</span>
+            <span className="tagline-word" data-word="can">can</span>
+            <span className="tagline-word highlight-word" data-word="eat">eat</span>
+            <span className="tagline-word" data-word="the">the</span>
+            <span className="tagline-word highlight-word" data-word="cup?">cup?</span>
+          </div>
+        </div>
+      </section>
+
       {/* Hero Section */}
       <section className="hero-section">
         <div className="container">
@@ -61,9 +79,6 @@ const Home = () => {
               </div>
             </div>
             
-            <h1 className="hero-tagline">
-              Why throw plastic away when you can eat the cup?
-            </h1>
             <p className="body-large hero-description">
               Discover revolutionary edible packaging solutions that nourish both people and planet. 
               Innovative & Sustainable Edible Products for the Benelux.
