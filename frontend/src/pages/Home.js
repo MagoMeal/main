@@ -30,20 +30,32 @@ const Home = () => {
 
   return (
     <div className="home-page">
-      {/* Animated Top Tagline */}
+      {/* Animated Top Tagline with Logo */}
       <section className="top-tagline-section">
         <div className="container">
-          <div className={`animated-tagline ${isVisible ? 'start-animation' : ''}`}>
-            <span className="tagline-word" data-word="Why">Why</span>
-            <span className="tagline-word" data-word="throw">throw</span>
-            <span className="tagline-word" data-word="plastic">plastic</span>
-            <span className="tagline-word" data-word="away">away</span>
-            <span className="tagline-word" data-word="when">when</span>
-            <span className="tagline-word" data-word="you">you</span>
-            <span className="tagline-word" data-word="can">can</span>
-            <span className="tagline-word highlight-word" data-word="eat">eat</span>
-            <span className="tagline-word" data-word="the">the</span>
-            <span className="tagline-word highlight-word" data-word="cup?">cup?</span>
+          <div className="tagline-container">
+            {/* Animated Logo */}
+            <div className={`animated-logo ${isVisible ? 'start-logo-animation' : ''}`}>
+              <img 
+                src={MagoMealLogo}   
+                alt="MagoMeal Logo" 
+                className="top-logo-image"
+              />
+            </div>
+            
+            {/* Animated Tagline */}
+            <div className={`animated-tagline ${isVisible ? 'start-animation' : ''}`}>
+              <span className="tagline-word" data-word="Why">Why</span>
+              <span className="tagline-word" data-word="throw">throw</span>
+              <span className="tagline-word" data-word="plastic">plastic</span>
+              <span className="tagline-word" data-word="away">away</span>
+              <span className="tagline-word" data-word="when">when</span>
+              <span className="tagline-word" data-word="you">you</span>
+              <span className="tagline-word" data-word="can">can</span>
+              <span className="tagline-word highlight-word" data-word="eat">eat</span>
+              <span className="tagline-word" data-word="the">the</span>
+              <span className="tagline-word highlight-word" data-word="cup?">cup?</span>
+            </div>
           </div>
         </div>
       </section>
