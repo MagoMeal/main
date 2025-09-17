@@ -445,13 +445,9 @@
   }
 }
 
-/* Side Images for Empty Space - Front Positioned */
+/* Side Images for Social Media Section */
 .side-images-container {
-  position: fixed;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  position: relative;
   z-index: 1;
   pointer-events: none;
 }
@@ -459,19 +455,19 @@
 .left-side-image,
 .right-side-image {
   position: absolute;
-  width: 200px;
-  height: 300px;
+  width: 150px;
+  height: 200px;
   overflow: hidden;
 }
 
 .left-side-image {
-  top: 200px;
-  left: 50px;
+  top: -20px;
+  left: -180px;
 }
 
 .right-side-image {
-  top: 250px;
-  right: 50px;
+  top: -20px;
+  right: -180px;
 }
 
 .side-wheat-image,
