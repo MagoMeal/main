@@ -1305,7 +1305,7 @@
   }
   
   .hero-logo-image {
-    height: 120px;
+    height: 140px;
   }
   
   .cupffee-image {
@@ -1313,39 +1313,67 @@
     width: 95%;
   }
   
-  /* Mobile Leaf Decorations - Smaller and repositioned */
+  /* Mobile Leaf Decorations - Scaled appropriately */
   .hero-combined-box::before {
-    width: 80px;
-    height: 80px;
-    top: -10px;
-    left: -10px;
+    width: 100px;
+    height: 100px;
+    top: -12px;
+    left: -12px;
   }
   
   .hero-combined-box::after {
-    width: 70px;
-    height: 70px;
-    bottom: -10px;
-    right: -10px;
+    width: 90px;
+    height: 90px;
+    bottom: -12px;
+    right: -12px;
   }
   
   .hero-combined-box .leaf-decoration-1 {
-    width: 50px;
-    height: 50px;
-    top: 15px;
-    right: 15px;
+    width: 65px;
+    height: 65px;
+    top: 10px;
+    right: 20px;
   }
   
   .hero-combined-box .leaf-decoration-2 {
-    width: 60px;
-    height: 60px;
-    bottom: 20px;
-    left: 20px;
+    width: 70px;
+    height: 70px;
+    bottom: 15px;
+    left: 25px;
   }
   
   .hero-combined-box .leaf-decoration-3 {
+    width: 50px;
+    height: 50px;
+    left: 5px;
+  }
+  
+  .hero-combined-box .leaf-decoration-4 {
+    width: 45px;
+    height: 45px;
+    top: 60px;
+    right: 100px;
+  }
+  
+  .hero-combined-box .leaf-decoration-5 {
+    width: 55px;
+    height: 55px;
+    bottom: 60px;
+    right: 50px;
+  }
+  
+  .hero-combined-box .leaf-decoration-6 {
+    width: 60px;
+    height: 60px;
+    top: 100px;
+    left: 100px;
+  }
+  
+  .hero-combined-box .leaf-decoration-7 {
     width: 40px;
     height: 40px;
-    left: 5px;
+    top: 20px;
+    left: 130px;
   }
   
   .hero-actions,
