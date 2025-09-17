@@ -253,6 +253,10 @@
 .cupffee-showcase {
   margin: var(--spacing-giant) 0;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
   opacity: 0;
   transform: translateY(30px);
   transition: all 0.8s ease;
@@ -265,28 +269,20 @@
 }
 
 .cupffee-image {
-  max-width: 400px;
-  width: 100%;
+  max-width: 600px;
+  width: 90%;
   height: auto;
-  border-radius: 20px;
-  box-shadow: 0 20px 60px rgba(0, 69, 52, 0.2);
+  border-radius: 25px;
+  box-shadow: 0 25px 80px rgba(0, 69, 52, 0.25);
   transition: all 0.4s ease;
   cursor: pointer;
+  display: block;
+  margin: 0 auto;
 }
 
 .cupffee-image:hover {
-  transform: scale(1.05) rotate(2deg);
-  box-shadow: 0 30px 80px rgba(0, 69, 52, 0.3);
-}
-
-.cupffee-tagline {
-  font-size: 1.2rem;
-  font-weight: 600;
-  color: var(--brand-dark);
-  margin-top: var(--spacing-medium);
-  font-style: italic;
-  opacity: 0;
-  animation: fadeInText 1s ease 0.5s forwards;
+  transform: scale(1.08) rotate(1deg);
+  box-shadow: 0 35px 100px rgba(0, 69, 52, 0.35);
 }
 
 /* Cupffee floating animation */
