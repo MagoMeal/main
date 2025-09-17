@@ -58,7 +58,6 @@ const Home = () => {
                 alt="Cupffee by MagoMeal - Edible Coffee Cups" 
                 className="cupffee-image"
               />
-              <p className="cupffee-tagline">Nice to eat you!</p>
             </div>
             
             <div className="hero-actions">
