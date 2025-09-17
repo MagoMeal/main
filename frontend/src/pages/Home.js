@@ -64,9 +64,9 @@ const Home = () => {
       <section className="hero-section">
         <div className="container">
           <div className={`hero-content ${isVisible ? 'animated fadeIn' : 'animated'}`}>
-            {/* Combined Logo and Cupffee Box */}
+            {/* Cupffee Product Box */}
             <div className={`hero-combined-box ${isVisible ? 'animated fadeIn' : 'animated'}`}>
-              {/* Leaf Decorations */}
+              {/* More Leaf Decorations */}
               <div className="leaf-decoration-1"></div>
               <div className="leaf-decoration-2"></div>
               <div className="leaf-decoration-3"></div>
@@ -74,15 +74,13 @@ const Home = () => {
               <div className="leaf-decoration-5"></div>
               <div className="leaf-decoration-6"></div>
               <div className="leaf-decoration-7"></div>
+              <div className="leaf-decoration-8"></div>
+              <div className="leaf-decoration-9"></div>
+              <div className="leaf-decoration-10"></div>
+              <div className="leaf-decoration-11"></div>
+              <div className="leaf-decoration-12"></div>
               
-              <div className="logo-section">
-                <img 
-                  src={MagoMealLogo}   
-                  alt="MagoMeal Logo" 
-                  className="hero-logo-image"
-                />
-              </div>
-              <div className="cupffee-section">
+              <div className="cupffee-section-full">
                 <img 
                   src="https://customer-assets.emergentagent.com/job_github-builder-5/artifacts/bd7p45rh_cupffee_by_magomeal.png"
                   alt="Cupffee by MagoMeal - Edible Coffee Cups" 
