@@ -84,7 +84,14 @@ const Home = () => {
           
           <div className="network-grid">
             {features.map((feature, index) => (
-              <div key={index} className="network-card hover-lift">
+              <div key={index} className="network-card hover-lift feature-card-with-leafs">
+                <div className="leafs-decoration">
+                  <img 
+                    src="https://customer-assets.emergentagent.com/job_github-builder-5/artifacts/7loflz67_leafs_magomeal.png" 
+                    alt="Eco-Friendly Leafs" 
+                    className="leafs-corner-image"
+                  />
+                </div>
                 <div className="feature-icon" style={{ color: 'var(--brand-dark)', marginBottom: 'var(--spacing-small)' }}>
                   {feature.icon}
                 </div>
