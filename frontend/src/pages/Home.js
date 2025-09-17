@@ -34,13 +34,22 @@ const Home = () => {
       <section className="hero-section">
         <div className="container">
           <div className={`hero-content ${isVisible ? 'animated fadeIn' : 'animated'}`}>
-            {/* Centered Logo */}
-            <div className="hero-logo">
-              <img 
-                src={MagoMealLogo}   
-                alt="MagoMeal Logo" 
-                className="hero-logo-image"
-              />
+            {/* Combined Logo and Cupffee Box */}
+            <div className={`hero-combined-box ${isVisible ? 'animated fadeIn' : 'animated'}`}>
+              <div className="logo-section">
+                <img 
+                  src={MagoMealLogo}   
+                  alt="MagoMeal Logo" 
+                  className="hero-logo-image"
+                />
+              </div>
+              <div className="cupffee-section">
+                <img 
+                  src="https://customer-assets.emergentagent.com/job_github-builder-5/artifacts/bd7p45rh_cupffee_by_magomeal.png"
+                  alt="Cupffee by MagoMeal - Edible Coffee Cups" 
+                  className="cupffee-image"
+                />
+              </div>
             </div>
             
             <h1 className="hero-tagline">
@@ -50,15 +59,6 @@ const Home = () => {
               Discover revolutionary edible packaging solutions that nourish both people and planet. 
               Innovative & Sustainable Edible Products for the Benelux.
             </p>
-            
-            {/* Cupffee Product Showcase */}
-            <div className={`cupffee-showcase ${isVisible ? 'animated slideInUp' : 'animated'}`}>
-              <img 
-                src="https://customer-assets.emergentagent.com/job_github-builder-5/artifacts/bd7p45rh_cupffee_by_magomeal.png"
-                alt="Cupffee by MagoMeal - Edible Coffee Cups" 
-                className="cupffee-image"
-              />
-            </div>
             
             <div className="hero-actions">
               <Link to="/products" className="btn-primary">
