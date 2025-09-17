@@ -367,7 +367,11 @@
 .hero-combined-box:hover::after,
 .hero-combined-box:hover .leaf-decoration-1,
 .hero-combined-box:hover .leaf-decoration-2,
-.hero-combined-box:hover .leaf-decoration-3 {
+.hero-combined-box:hover .leaf-decoration-3,
+.hero-combined-box:hover .leaf-decoration-4,
+.hero-combined-box:hover .leaf-decoration-5,
+.hero-combined-box:hover .leaf-decoration-6,
+.hero-combined-box:hover .leaf-decoration-7 {
   opacity: 0.2;
   transform: scale(1.1);
 }
