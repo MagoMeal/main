@@ -40,6 +40,10 @@ const Home = () => {
               <div className="leaf-decoration-1"></div>
               <div className="leaf-decoration-2"></div>
               <div className="leaf-decoration-3"></div>
+              <div className="leaf-decoration-4"></div>
+              <div className="leaf-decoration-5"></div>
+              <div className="leaf-decoration-6"></div>
+              <div className="leaf-decoration-7"></div>
               
               <div className="logo-section">
                 <img 
