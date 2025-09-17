@@ -139,6 +139,37 @@ main {
   cursor: pointer;
 }
 
+/* Feature cards with leafs decoration */
+.feature-card-with-leafs {
+  position: relative;
+  overflow: hidden;
+}
+
+.leafs-decoration {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  z-index: 1;
+  opacity: 0.15;
+  transition: all 0.3s ease;
+}
+
+.leafs-corner-image {
+  width: 80px;
+  height: auto;
+  transform: rotate(25deg);
+  transition: all 0.3s ease;
+}
+
+.feature-card-with-leafs:hover .leafs-decoration {
+  opacity: 0.25;
+  transform: scale(1.1);
+}
+
+.feature-card-with-leafs:hover .leafs-corner-image {
+  transform: rotate(30deg) scale(1.05);
+}
+
 .network-card:hover {
   transform: translateY(-4px);
   box-shadow: 0 8px 24px rgba(0, 69, 52, 0.25);
