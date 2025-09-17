@@ -36,6 +36,11 @@ const Home = () => {
           <div className={`hero-content ${isVisible ? 'animated fadeIn' : 'animated'}`}>
             {/* Combined Logo and Cupffee Box */}
             <div className={`hero-combined-box ${isVisible ? 'animated fadeIn' : 'animated'}`}>
+              {/* Leaf Decorations */}
+              <div className="leaf-decoration-1"></div>
+              <div className="leaf-decoration-2"></div>
+              <div className="leaf-decoration-3"></div>
+              
               <div className="logo-section">
                 <img 
                   src={MagoMealLogo}   
