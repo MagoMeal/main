@@ -1777,6 +1777,26 @@
   .giant-question-mark {
     font-size: clamp(2.5rem, 10vw, 4rem);
   }
+  
+  /* Mobile Side Images */
+  .left-side-image,
+  .right-side-image {
+    width: 100px;
+  }
+  
+  .left-side-image {
+    left: 10px;
+  }
+  
+  .right-side-image {
+    right: 10px;
+  }
+  
+  .side-wheat-image,
+  .side-oat-image {
+    width: 80px;
+    opacity: 0.12;
+  }
 
   .hero-combined-box {
     flex-direction: column;
