@@ -570,7 +570,7 @@
   animation: leafFloat14 6.2s ease-in-out infinite;
 }
 
-/* Hover Effects for Leafs */
+/* Hover Effects for All Leafs */
 .hero-combined-box:hover::before,
 .hero-combined-box:hover::after,
 .hero-combined-box:hover .leaf-decoration-1,
@@ -579,7 +579,12 @@
 .hero-combined-box:hover .leaf-decoration-4,
 .hero-combined-box:hover .leaf-decoration-5,
 .hero-combined-box:hover .leaf-decoration-6,
-.hero-combined-box:hover .leaf-decoration-7 {
+.hero-combined-box:hover .leaf-decoration-7,
+.hero-combined-box:hover .leaf-decoration-8,
+.hero-combined-box:hover .leaf-decoration-9,
+.hero-combined-box:hover .leaf-decoration-10,
+.hero-combined-box:hover .leaf-decoration-11,
+.hero-combined-box:hover .leaf-decoration-12 {
   opacity: 0.2;
   transform: scale(1.1);
 }
