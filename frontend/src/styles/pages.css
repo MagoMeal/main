@@ -1765,6 +1765,25 @@
   .giant-question-mark {
     font-size: clamp(2.5rem, 10vw, 4rem);
   }
+  
+  /* Mobile Decorative Elements */
+  .left-decoration,
+  .right-decoration {
+    width: 100px;
+  }
+  
+  .decoration-image {
+    width: 80px;
+    opacity: 0.08;
+  }
+  
+  .wheat-decoration {
+    transform: translateX(-10px);
+  }
+  
+  .oat-decoration {
+    transform: translateX(10px);
+  }
 
   .hero-combined-box {
     flex-direction: column;
