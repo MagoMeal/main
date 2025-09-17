@@ -1606,19 +1606,6 @@
   text-align: center;
 }
 
-/* Tablet Responsive */
-@media (max-width: 1200px) and (min-width: 769px) {
-  .left-decoration,
-  .right-decoration {
-    width: 150px;
-  }
-  
-  .decoration-image {
-    width: 130px;
-    opacity: 0.12;
-  }
-}
-
 /* Mobile Responsive */
 @media (max-width: 781px) {
   .network-header {
