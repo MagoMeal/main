@@ -50,6 +50,11 @@
   background: rgba(255, 255, 255, 0.1);
 }
 
+/* Desktop Navigation - Default */
+.desktop-nav {
+  display: flex;
+}
+
 .mobile-menu-btn {
   display: none;
   background: none;
