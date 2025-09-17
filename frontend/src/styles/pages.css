@@ -249,6 +249,71 @@
   margin-right: auto;
 }
 
+/* Cupffee Showcase Styles */
+.cupffee-showcase {
+  margin: var(--spacing-giant) 0;
+  text-align: center;
+  opacity: 0;
+  transform: translateY(30px);
+  transition: all 0.8s ease;
+}
+
+.cupffee-showcase.animated.slideInUp {
+  opacity: 1;
+  transform: translateY(0);
+  animation: cupffeeFloat 3s ease-in-out infinite;
+}
+
+.cupffee-image {
+  max-width: 400px;
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 20px 60px rgba(0, 69, 52, 0.2);
+  transition: all 0.4s ease;
+  cursor: pointer;
+}
+
+.cupffee-image:hover {
+  transform: scale(1.05) rotate(2deg);
+  box-shadow: 0 30px 80px rgba(0, 69, 52, 0.3);
+}
+
+.cupffee-tagline {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: var(--brand-dark);
+  margin-top: var(--spacing-medium);
+  font-style: italic;
+  opacity: 0;
+  animation: fadeInText 1s ease 0.5s forwards;
+}
+
+/* Cupffee floating animation */
+@keyframes cupffeeFloat {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  33% {
+    transform: translateY(-8px) rotate(1deg);
+  }
+  66% {
+    transform: translateY(-4px) rotate(-1deg);
+  }
+}
+
+/* Text fade in animation */
+@keyframes fadeInText {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 .hero-actions {
   display: flex;
   gap: var(--spacing-small);
