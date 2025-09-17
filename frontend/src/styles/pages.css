@@ -445,42 +445,45 @@
   }
 }
 
-/* Side Images for Empty Space */
+/* Side Images for Empty Space - Front Positioned */
 .side-images-container {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: -1;
+  z-index: 1;
   pointer-events: none;
 }
 
 .left-side-image,
 .right-side-image {
   position: absolute;
-  top: 0;
-  bottom: 0;
-  width: 180px;
+  width: 200px;
+  height: 300px;
   overflow: hidden;
 }
 
 .left-side-image {
-  left: 20px;
+  top: 200px;
+  left: 50px;
 }
 
 .right-side-image {
-  right: 20px;
+  top: 250px;
+  right: 50px;
 }
 
 .side-wheat-image,
 .side-oat-image {
-  width: 160px;
-  height: 100vh;
+  width: 180px;
+  height: 280px;
   object-fit: cover;
   object-position: center;
-  opacity: 0.2;
+  opacity: 0.4;
   transition: all 0.4s ease;
+  border-radius: 15px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
   /* Keep original colors - no filters applied */
 }
 
