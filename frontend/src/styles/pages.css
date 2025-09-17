@@ -472,14 +472,14 @@
 
 .side-wheat-image,
 .side-oat-image {
-  width: 180px;
-  height: 280px;
+  width: 130px;
+  height: 180px;
   object-fit: cover;
   object-position: center;
-  opacity: 0.4;
+  opacity: 0.5;
   transition: all 0.4s ease;
-  border-radius: 15px;
-  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
   /* Keep original colors - no filters applied */
 }
 
