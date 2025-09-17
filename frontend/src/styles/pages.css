@@ -1688,23 +1688,23 @@
 @media (max-width: 1200px) and (min-width: 769px) {
   .left-side-image,
   .right-side-image {
-    width: 160px;
-    height: 240px;
+    width: 120px;
+    height: 160px;
   }
   
   .left-side-image {
-    left: 30px;
+    left: -140px;
   }
   
   .right-side-image {
-    right: 30px;
+    right: -140px;
   }
   
   .side-wheat-image,
   .side-oat-image {
-    width: 140px;
-    height: 220px;
-    opacity: 0.35;
+    width: 100px;
+    height: 140px;
+    opacity: 0.4;
   }
 }
 
