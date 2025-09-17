@@ -1122,6 +1122,16 @@
     padding: 40px;
   }
   
+  .cupffee-image {
+    max-width: 300px;
+    margin: 0 var(--spacing-medium);
+  }
+  
+  .cupffee-tagline {
+    font-size: 1rem;
+    margin: 0 var(--spacing-medium);
+  }
+  
   .hero-actions,
   .cta-actions {
     flex-direction: column;
