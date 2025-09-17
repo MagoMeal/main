@@ -1112,15 +1112,21 @@
     padding-top: 80px;
   }
   
+  .hero-combined-box {
+    flex-direction: column;
+    gap: var(--spacing-medium);
+    padding: var(--spacing-medium);
+    margin: 0 var(--spacing-small);
+  }
+  
   .hero-logo-image {
-    height: 240px;
-    padding: 40px;
+    height: 180px;
+    padding: 6px;
   }
   
   .cupffee-image {
-    max-width: 450px;
+    max-width: 280px;
     width: 95%;
-    margin: 0 auto;
   }
   
   .hero-actions,
