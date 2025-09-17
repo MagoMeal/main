@@ -30,6 +30,24 @@ const Home = () => {
 
   return (
     <div className="home-page">
+      {/* Full Page Decorative Images */}
+      <div className="page-decorative-elements">
+        <div className="left-decoration">
+          <img 
+            src="https://customer-assets.emergentagent.com/job_github-builder-5/artifacts/rhnf6auc_magomeal_wheet.png"
+            alt="Wheat Natural Decoration"
+            className="decoration-image wheat-decoration"
+          />
+        </div>
+        <div className="right-decoration">
+          <img 
+            src="https://customer-assets.emergentagent.com/job_github-builder-5/artifacts/9shj5p3e_oat_bran.png"
+            alt="Oat Bran Natural Decoration" 
+            className="decoration-image oat-decoration"
+          />
+        </div>
+      </div>
+
       {/* Social Media Icons */}
       <section className="social-media-section">
         <div className="container">
