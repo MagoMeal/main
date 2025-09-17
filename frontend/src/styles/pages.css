@@ -445,6 +445,83 @@
   }
 }
 
+/* Side Images for Empty Space */
+.side-images-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1;
+  pointer-events: none;
+}
+
+.left-side-image,
+.right-side-image {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 180px;
+  overflow: hidden;
+}
+
+.left-side-image {
+  left: 20px;
+}
+
+.right-side-image {
+  right: 20px;
+}
+
+.side-wheat-image,
+.side-oat-image {
+  width: 160px;
+  height: 100vh;
+  object-fit: cover;
+  object-position: center;
+  opacity: 0.2;
+  transition: all 0.4s ease;
+  /* Keep original colors - no filters applied */
+}
+
+.side-wheat-image {
+  animation: gentleWheatSway 10s ease-in-out infinite;
+}
+
+.side-oat-image {
+  animation: gentleOatSway 8s ease-in-out infinite;
+}
+
+/* Gentle Swaying Animations with Original Colors */
+@keyframes gentleWheatSway {
+  0%, 100% { 
+    transform: translateY(0px) rotate(0deg);
+    opacity: 0.2;
+  }
+  50% { 
+    transform: translateY(-5px) rotate(1deg);
+    opacity: 0.25;
+  }
+}
+
+@keyframes gentleOatSway {
+  0%, 100% { 
+    transform: translateY(0px) rotate(0deg);
+    opacity: 0.2;
+  }
+  50% { 
+    transform: translateY(-3px) rotate(-1deg);
+    opacity: 0.25;
+  }
+}
+
+/* Hover Enhancement */
+.home-page:hover .side-wheat-image,
+.home-page:hover .side-oat-image {
+  opacity: 0.3;
+  transform: scale(1.02);
+}
+
 .hero-section {
   padding: var(--spacing-medium) 0 var(--spacing-giant);
   text-align: center;
