@@ -30,6 +30,24 @@ const Home = () => {
 
   return (
     <div className="home-page">
+      {/* Side Images for Empty Space */}
+      <div className="side-images-container">
+        <div className="left-side-image">
+          <img 
+            src="https://customer-assets.emergentagent.com/job_github-builder-5/artifacts/rhnf6auc_magomeal_wheet.png"
+            alt="Natural Wheat"
+            className="side-wheat-image"
+          />
+        </div>
+        <div className="right-side-image">
+          <img 
+            src="https://customer-assets.emergentagent.com/job_github-builder-5/artifacts/9shj5p3e_oat_bran.png"
+            alt="Natural Oat Bran" 
+            className="side-oat-image"
+          />
+        </div>
+      </div>
+
       {/* Social Media Icons */}
       <section className="social-media-section">
         <div className="container">
