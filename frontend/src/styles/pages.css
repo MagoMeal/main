@@ -1640,6 +1640,41 @@
     left: 130px;
   }
   
+  .hero-combined-box .leaf-decoration-8 {
+    width: 50px;
+    height: 50px;
+    top: 120px;
+    right: 80px;
+  }
+  
+  .hero-combined-box .leaf-decoration-9 {
+    width: 60px;
+    height: 60px;
+    bottom: 70px;
+    left: 50px;
+  }
+  
+  .hero-combined-box .leaf-decoration-10 {
+    width: 55px;
+    height: 55px;
+    top: 40px;
+    left: 80px;
+  }
+  
+  .hero-combined-box .leaf-decoration-11 {
+    width: 45px;
+    height: 45px;
+    bottom: 30px;
+    right: 130px;
+  }
+  
+  .hero-combined-box .leaf-decoration-12 {
+    width: 50px;
+    height: 50px;
+    top: 70px;
+    right: 120px;
+  }
+  
   .hero-actions,
   .cta-actions {
     flex-direction: column;
