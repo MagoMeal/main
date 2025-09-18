@@ -200,25 +200,6 @@ const Home = () => {
           </div>
         </div>
       </section>
-
-      {/* Footer */}
-      <footer className="footer-section">
-        <div className="container">
-          <div className="footer-content">
-            <div className="footer-logo">
-              <img 
-                src="https://customer-assets.emergentagent.com/job_github-builder-5/artifacts/4lpzmkem_magomeal_circular_logo.png"
-                alt="MagoMeal Circular Logo"
-                className="footer-logo-image"
-              />
-            </div>
-            <div className="footer-text">
-              <p className="footer-tagline">Innovative & Sustainable Edible Products for the Benelux</p>
-              <p className="footer-copyright">© 2024 MagoMeal. All rights reserved.</p>
-            </div>
-          </div>
-        </div>
-      </footer>
     </div>
   );
 };
