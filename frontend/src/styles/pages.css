@@ -2042,9 +2042,12 @@
 
 /* Directly below cup: Completely natural */
 .text-box-bottom-center {
-  bottom: -80px; /* Position directly below cup with clear gap */
-  left: 50%; /* Center horizontally */
-  transform: translateX(-50%) scale(0.8);
+  position: absolute !important;
+  bottom: -80px !important; /* Position directly below cup with clear gap */
+  left: 50% !important; /* Center horizontally */
+  right: auto !important; /* Override any right positioning */
+  top: auto !important; /* Override any top positioning */
+  transform: translateX(-50%) scale(0.8) !important;
   opacity: 0;
   animation: slideFromCupBottomCenter 0.6s ease-out 1.2s forwards;
 }
