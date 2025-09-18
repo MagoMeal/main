@@ -2123,8 +2123,8 @@
     width: 300px;
   }
   .text-box {
-    width: 220px;
-    padding: 16px;
+    width: 260px; /* Increased from 220px to 260px */
+    padding: 20px; /* Increased from 16px to 20px */
   }
   .text-box-top-left,
   .text-box-bottom-left {
