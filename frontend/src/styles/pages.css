@@ -1916,10 +1916,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 600px;
-  margin: var(--spacing-giant) 0;
+  min-height: 700px;
+  max-width: 1000px;
+  margin: var(--spacing-giant) auto;
   padding: var(--spacing-large);
-  overflow: hidden;
+  overflow: visible;
 }
 
 /* Background Decorative Images */
@@ -1927,39 +1928,42 @@
 .oat-decoration-right {
   position: absolute;
   z-index: 1;
-  opacity: 0.2;
+  opacity: 0.15;
 }
 
 .wheat-decoration-left {
   top: 50px;
-  left: -50px;
+  left: -100px;
   transform: rotate(-15deg);
 }
 
 .oat-decoration-right {
   bottom: 50px;
-  right: -50px;
+  right: -100px;
   transform: rotate(15deg);
 }
 
 .wheat-bg-image,
 .oat-bg-image {
-  width: 200px;
-  height: 300px;
+  width: 180px;
+  height: 270px;
   object-fit: cover;
-  border-radius: 15px;
+  border-radius: 12px;
   filter: sepia(10%) saturate(80%);
 }
 
-/* Central Cupffee Image */
+/* Central Cupffee Image - 40-45% of container width */
 .cupffee-center {
   position: relative;
   z-index: 5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   animation: cupffeeFloat 4s ease-in-out infinite;
 }
 
 .cupffee-main-image {
-  width: 350px;
+  width: 400px; /* ~40-45% of 1000px container */
   height: auto;
   border-radius: 20px;
   box-shadow: 0 15px 40px rgba(0, 69, 52, 0.2);
@@ -1971,48 +1975,51 @@
   box-shadow: 0 20px 50px rgba(0, 69, 52, 0.3);
 }
 
-/* Animated Text Boxes */
+/* Structured Text Boxes - Precise Positioning */
 .text-box {
   position: absolute;
   z-index: 10;
-  max-width: 280px;
-  background: rgba(255, 255, 255, 0.95);
-  border-radius: 15px;
-  padding: var(--spacing-medium);
-  box-shadow: 0 10px 30px rgba(0, 69, 52, 0.15);
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(0, 69, 52, 0.1);
+  width: 235px; /* Fixed width 220-250px range */
+  background: rgba(255, 255, 255, 0.98);
+  border-radius: 12px;
+  padding: 18px;
+  box-shadow: 0 8px 25px rgba(0, 69, 52, 0.12);
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(0, 69, 52, 0.08);
   opacity: 0;
   transform: scale(0.8);
-  animation: textBoxSlideIn 0.8s ease-out forwards;
 }
 
+/* Top-Right: Crunchy and delicious */
 .text-box-top {
-  top: 20px;
-  left: 50%;
-  transform: translateX(-50%) scale(0.8);
-  animation-delay: 0.5s;
+  top: 50px; /* Slightly above cup's rim */
+  right: -50px; /* ~50px distance from cup */
+  transform-origin: center left;
+  animation: slideFromCenter 0.6s ease-out 0.5s forwards;
 }
 
-.text-box-right {
-  right: 20px;
-  top: 50%;
-  transform: translateY(-50%) scale(0.8);
-  animation-delay: 1s;
-}
-
-.text-box-bottom {
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%) scale(0.8);
-  animation-delay: 1.5s;
-}
-
+/* Top-Left: Completely natural */
 .text-box-left {
-  left: 20px;
-  top: 50%;
-  transform: translateY(-50%) scale(0.8);
-  animation-delay: 2s;
+  top: 50px; /* Aligned horizontally with top-right */
+  left: -50px; /* ~50px distance from cup */
+  transform-origin: center right;
+  animation: slideFromCenter 0.6s ease-out 1s forwards;
+}
+
+/* Bottom-Left: Green production */
+.text-box-bottom {
+  bottom: 50px; /* Below bottom edge of cup */
+  left: -50px; /* Same as top-left */
+  transform-origin: center right;
+  animation: slideFromCenter 0.6s ease-out 1.5s forwards;
+}
+
+/* Bottom-Right: 100% vegan */
+.text-box-right {
+  bottom: 50px; /* Same vertical alignment as bottom-left */
+  right: -50px; /* Same as top-right */
+  transform-origin: center left;
+  animation: slideFromCenter 0.6s ease-out 2s forwards;
 }
 
 .text-content h4 {
