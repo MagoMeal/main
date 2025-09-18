@@ -197,9 +197,9 @@
 
 /* Social Media Section */
 .social-media-section {
-  padding: var(--spacing-medium) 0;
+  padding: var(--spacing-small) 0;
   text-align: center;
-  margin-top: 60px;
+  margin-top: 20px;
 }
 
 .social-icons-container {
