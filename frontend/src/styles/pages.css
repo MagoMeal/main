@@ -1901,7 +1901,7 @@
   }
   
   .text-box-bottom-left,
-  .text-box-bottom-right {
+  .text-box-bottom-center {
     display: inline-block;  
     width: 45%;
     margin: var(--spacing-small) 2.5%;
