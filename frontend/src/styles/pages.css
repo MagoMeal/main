@@ -2016,29 +2016,29 @@
 
 /* Top-left: Completely natural */
 .text-box-top-left {
-  top: 50px; /* 40-60px spacing from cup */
-  left: -50px; /* 40-60px spacing from cup */
+  top: 30px; /* ~30-40px gap from cup */
+  left: -35px; /* ~30-40px gap from cup edge */
   animation: slideFromCupTopLeft 0.6s ease-out 0.3s forwards;
 }
 
 /* Top-right: Crunchy and delicious */
 .text-box-top-right {
-  top: 50px; /* 40-60px spacing from cup */
-  right: -50px; /* 40-60px spacing from cup */
+  top: 30px; /* ~30-40px gap from cup */
+  right: -35px; /* ~30-40px gap from cup edge */
   animation: slideFromCupTopRight 0.6s ease-out 0.6s forwards;
 }
 
 /* Bottom-left: Green production */
 .text-box-bottom-left {
-  bottom: 50px; /* 40-60px spacing from cup */
-  left: -50px; /* 40-60px spacing from cup */
+  bottom: 30px; /* ~30-40px gap from cup */
+  left: -35px; /* ~30-40px gap from cup edge */
   animation: slideFromCupBottomLeft 0.6s ease-out 0.9s forwards;
 }
 
 /* Bottom-right: 100% vegan */
 .text-box-bottom-right {
-  bottom: 50px; /* 40-60px spacing from cup */
-  right: -50px; /* 40-60px spacing from cup */
+  bottom: 30px; /* ~30-40px gap from cup */
+  right: -35px; /* ~30-40px gap from cup edge */
   animation: slideFromCupBottomRight 0.6s ease-out 1.2s forwards;
 }
 
