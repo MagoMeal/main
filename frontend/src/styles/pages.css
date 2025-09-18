@@ -2052,6 +2052,18 @@
   animation: slideFromCupBottomCenter 0.6s ease-out 1.2s forwards;
 }
 
+/* Right side: GMO free */
+.text-box-right-center {
+  position: absolute !important;
+  top: 50% !important; /* Center vertically */
+  right: -35px !important; /* Distance from right of cup */
+  left: auto !important;
+  bottom: auto !important;
+  transform: translateY(-50%) scale(0.8) !important;
+  opacity: 0;
+  animation: slideFromCupRightCenter 0.6s ease-out 1.5s forwards;
+}
+
 .text-content h4 {
   color: var(--brand-dark);
   font-size: 17px; /* 16-18px bold heading */
