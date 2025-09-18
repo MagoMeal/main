@@ -1857,6 +1857,57 @@
   .meta-item {
     font-size: 14px;
   }
+  
+  /* Mobile Cupffee Showcase */
+  .cupffee-showcase-section {
+    min-height: 500px;
+    padding: var(--spacing-medium);
+  }
+  
+  .cupffee-main-image {
+    width: 250px;
+  }
+  
+  .wheat-decoration-left,
+  .oat-decoration-right {
+    opacity: 0.1;
+  }
+  
+  .wheat-bg-image,
+  .oat-bg-image {
+    width: 120px;
+    height: 180px;
+  }
+  
+  .text-box {
+    max-width: 200px;
+    padding: var(--spacing-small);
+    font-size: 0.85rem;
+  }
+  
+  .text-box-top {
+    top: 10px;
+  }
+  
+  .text-box-bottom {
+    bottom: 10px;
+  }
+  
+  .text-box-left {
+    left: 10px;
+  }
+  
+  .text-box-right {
+    right: 10px;
+  }
+  
+  .text-content h4 {
+    font-size: 1rem;
+  }
+  
+  .text-content p {
+    font-size: 0.8rem;
+  }
 }
 
 /* Cupffee Showcase Section */
