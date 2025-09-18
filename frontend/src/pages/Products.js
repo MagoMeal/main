@@ -91,11 +91,11 @@ const Products = () => {
             </div>
 
             {/* Animated Text Boxes Around Cup */}
-            {/* Top-left: Completely natural */}
+            {/* Top-left: 100% vegan */}
             <div className="text-box text-box-top-left">
               <div className="text-content">
-                <h4>Completely natural</h4>
-                <p>Masterfully crafted from 7 sustainable, locally sourced ingredients of natural origin.</p>
+                <h4>100% vegan</h4>
+                <p>Handpicked for purity: only the best plant-based ingredients, including natural grains and coconut oil.</p>
               </div>
             </div>
 
@@ -115,11 +115,11 @@ const Products = () => {
               </div>
             </div>
 
-            {/* Bottom-right: 100% vegan */}
-            <div className="text-box text-box-bottom-right">
+            {/* Directly below cup: Completely natural */}
+            <div className="text-box text-box-bottom-center">
               <div className="text-content">
-                <h4>100% vegan</h4>
-                <p>Handpicked for purity: only the best plant-based ingredients, including natural grains and coconut oil.</p>
+                <h4>Completely natural</h4>
+                <p>Masterfully crafted from 7 sustainable, locally sourced ingredients of natural origin.</p>
               </div>
             </div>
           </div>
