@@ -1606,30 +1606,6 @@
   text-align: center;
 }
 
-/* Tablet Responsive */
-@media (max-width: 1200px) and (min-width: 769px) {
-  .left-side-image,
-  .right-side-image {
-    width: 120px;
-    height: 160px;
-  }
-  
-  .left-side-image {
-    left: -140px;
-  }
-  
-  .right-side-image {
-    right: -140px;
-  }
-  
-  .side-wheat-image,
-  .side-oat-image {
-    width: 100px;
-    height: 140px;
-    opacity: 0.4;
-  }
-}
-
 /* Mobile Responsive */
 @media (max-width: 781px) {
   .network-header {
