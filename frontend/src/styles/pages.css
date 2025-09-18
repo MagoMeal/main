@@ -1940,31 +1940,34 @@
 .oat-decoration-right {
   position: absolute;
   z-index: 1;
-  opacity: 0.15;
+  opacity: 60.15;
 }
 
 .wheat-decoration-left {
-  top: 50px;
-  left: -100px;
-  transform: rotate(-15deg);
+  top: 150px;
+  left: -90px;
+  transform: rotate(-25deg);
 }
 
 .oat-decoration-right {
-  bottom: 50px;
-  right: -100px;
+  bottom: 270px;
+  right: -200px;
   transform: rotate(15deg);
 }
 
 .wheat-bg-image,
 .oat-bg-image {
-  width: 180px;
-  height: 270px;
+  width: 280px;
+  height: 300px;
   object-fit: cover;
-  border-radius: 12px;
+  border-radius: 82px;
   filter: sepia(10%) saturate(80%);
 }
 
-/* Central Cupffee Image - 40-45% of container width */
+
+
+
+/* Central Cupffee Image */
 .cupffee-center {
   position: relative;
   z-index: 5;
@@ -1975,7 +1978,7 @@
 }
 
 .cupffee-main-image {
-  width: 400px; /* ~40-45% of 1000px container */
+  width: 400px;
   height: auto;
   border-radius: 20px;
   box-shadow: 0 15px 40px rgba(0, 69, 52, 0.2);
@@ -1987,85 +1990,117 @@
   box-shadow: 0 20px 50px rgba(0, 69, 52, 0.3);
 }
 
-/* Text Boxes - 220-250px wide with proper positioning */
+/* Common Styles for All Text Boxes */
 .text-box {
   position: absolute;
   z-index: 10;
-  width: 235px; /* Within 220-250px range */
+  width: 280px;
+  height: auto;
   background: rgba(255, 255, 255, 0.98);
-  border-radius: 12px;
-  padding: 18px;
-  box-shadow: 0 8px 25px rgba(0, 69, 52, 0.12);
+  border-radius: 16px;
+  padding: 24px;
+  box-shadow: 0 10px 30px rgba(0, 69, 52, 0.15);
   backdrop-filter: blur(8px);
   border: 1px solid rgba(0, 69, 52, 0.08);
   opacity: 0;
-  transform: scale(0.8);
+  transform: scale(0.85);
+  transition: all 0.5s ease;
+  text-align: center;
 }
 
-/* Apply common text-box styles to all positioned boxes */
-.text-box-top-left,
-.text-box-top-right,
-.text-box-bottom-left,
-.text-box-bottom-center,
-.text-box-right-center {
-  position: absolute;
-  z-index: 10;
-  width: 235px;
-  background: rgba(255, 255, 255, 0.98);
-  border-radius: 12px;
-  padding: 18px;
-  box-shadow: 0 8px 25px rgba(0, 69, 52, 0.12);
-  backdrop-filter: blur(8px);
-  border: 1px solid rgba(0, 69, 52, 0.08);
-  opacity: 0;
-  transform: scale(0.8);
-}
-
-/* Top-left: 100% vegan */
+/* Top-left box */
 .text-box-top-left {
-  top: 30px; /* ~30-40px gap from cup */
-  left: -35px; /* ~30-40px gap from cup edge */
+  top: -20px;   /* slightly above the cup */
+  left: -50px;  /* closer to cup edge */
   animation: slideFromCupTopLeft 0.6s ease-out 0.3s forwards;
 }
 
-/* Top-right: Crunchy and delicious */
+/* Top-right box */
 .text-box-top-right {
-  top: 30px; /* ~30-40px gap from cup */
-  right: -35px; /* ~30-40px gap from cup edge */
+  top: -20px;
+  right: -90px;
   animation: slideFromCupTopRight 0.6s ease-out 0.6s forwards;
 }
 
-/* Bottom-left: Green production */
+/* Bottom-left box */
 .text-box-bottom-left {
-  bottom: 30px; /* ~30-40px gap from cup */
-  left: -35px; /* ~30-40px gap from cup edge */
+  bottom: 70px;  /* slightly below the cup */
+  left: -50px;
   animation: slideFromCupBottomLeft 0.6s ease-out 0.9s forwards;
 }
 
-/* Directly below cup: GMO free */
+/* Bottom-center box (GMO free) */
 .text-box-bottom-center {
-  position: absolute !important;
-  bottom: -100px !important; /* Position directly below cup with more gap */
-  left: 50% !important; /* Center horizontally */
-  right: auto !important; /* Override any right positioning */
-  top: auto !important; /* Override any top positioning */
-  transform: translateX(-50%) scale(0.8) !important;
-  opacity: 0 !important;
-  animation: slideFromCupBottomCenter 0.6s ease-out 1.2s forwards !important;
-  z-index: 15 !important; /* Higher z-index to ensure visibility */
+  bottom: -150px;   /* hugging the cup closely */
+  left: 50%;
+  transform: translateX(-50%) scale(0.85);
+  opacity: 0;
+  animation: slideFromCupBottomCenter 0.6s ease-out 1.2s forwards;
+  z-index: 15;
 }
 
-/* Right side: GMO free */
+/* Right-center box */
 .text-box-right-center {
-  position: absolute !important;
-  top: 50% !important; /* Center vertically */
-  right: -35px !important; /* Distance from right of cup */
-  left: auto !important;
-  bottom: auto !important;
-  transform: translateY(-50%) scale(0.8) !important;
+  top: 80%;
+  right: -90px;
+  transform: translateY(-50%) scale(0.85);
   opacity: 0;
   animation: slideFromCupRightCenter 0.6s ease-out 1.5s forwards;
 }
+
+/* Responsive Adjustments */
+@media (max-width: 800px) {
+  .cupffee-main-image {
+    width: 300px;
+  }
+  .text-box {
+    width: 220px;
+    padding: 16px;
+  }
+  .text-box-top-left,
+  .text-box-bottom-left {
+    left: -60px;
+  }
+  .text-box-top-right,
+  .text-box-right-center {
+    right: -60px;
+  }
+  .text-box-bottom-center {
+    bottom: -40px;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .text-content h4 {
   color: var(--brand-dark);
