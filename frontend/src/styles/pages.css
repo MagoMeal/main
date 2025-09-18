@@ -2055,45 +2055,44 @@
   }
 }
 
-/* Individual slide animations for each position */
-.text-box-right {
-  animation: textBoxSlideInRight 0.8s ease-out forwards;
-}
-
-.text-box-left {
-  animation: textBoxSlideInLeft 0.8s ease-out forwards;
-}
-
-.text-box-top, .text-box-bottom {
-  animation: textBoxSlideInVertical 0.8s ease-out forwards;
-}
-
-@keyframes textBoxSlideInRight {
+/* Slide animations - each box slides outward from cup center */
+@keyframes slideFromCupTopLeft {
   0% {
     opacity: 0;
-    transform: translateY(-50%) translateX(30px) scale(0.8);
+    transform: translate(100px, 50px) scale(0.8);
   }
   100% {
     opacity: 1;
-    transform: translateY(-50%) translateX(0) scale(1);
+    transform: translate(0, 0) scale(1);
   }
 }
 
-@keyframes textBoxSlideInLeft {
+@keyframes slideFromCupTopRight {
   0% {
     opacity: 0;
-    transform: translateY(-50%) translateX(-30px) scale(0.8);
+    transform: translate(-100px, 50px) scale(0.8);
   }
   100% {
     opacity: 1;
-    transform: translateY(-50%) translateX(0) scale(1);
+    transform: translate(0, 0) scale(1);
   }
 }
 
-@keyframes textBoxSlideInVertical {
+@keyframes slideFromCupBottomLeft {
   0% {
     opacity: 0;
-    transform: translateX(-50%) scale(0.8);
+    transform: translate(100px, -50px) scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: translate(0, 0) scale(1);
+  }
+}
+
+@keyframes slideFromCupBottomRight {
+  0% {
+    opacity: 0;
+    transform: translate(-100px, -50px) scale(0.8);
   }
   100% {
     opacity: 1;
