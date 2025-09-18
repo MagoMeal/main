@@ -1945,8 +1945,8 @@
   }
   
   .text-box {
-    max-width: 280px;
-    padding: var(--spacing-small);
+    max-width: 320px; /* Increased from 280px to 320px */
+    padding: var(--spacing-medium); /* Increased padding */
     margin: var(--spacing-xs) auto;
   }
   
