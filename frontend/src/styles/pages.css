@@ -2037,7 +2037,7 @@
 
 /* Directly below cup: Completely natural */
 .text-box-bottom-center {
-  bottom: -50px; /* ~30-40px gap below cup */
+  bottom: -70px; /* Position below cup with clear gap */
   left: 50%; /* Center horizontally */
   transform: translateX(-50%) scale(0.8);
   opacity: 0;
