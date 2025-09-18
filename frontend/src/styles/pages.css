@@ -2104,8 +2104,8 @@
     width: 350px;
   }
   .text-box {
-    width: 200px;
-    padding: 16px;
+    width: 240px; /* Increased from 200px to 240px */
+    padding: 20px; /* Increased from 16px to 20px */
   }
   .text-box-top-left,
   .text-box-bottom-left {
