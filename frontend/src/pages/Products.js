@@ -63,25 +63,60 @@ const Products = () => {
             </p>
           </div>
 
-          {/* Coming Soon Message */}
-          <div className="coming-soon-section">
-            <div className="coming-soon-card network-card">
-              <Package size={64} style={{ color: 'var(--brand-dark)', marginBottom: 'var(--spacing-medium)' }} />
-              <h3 className="heading-2">Product Catalog Coming Soon</h3>
-              <p className="body-large">
-                We're preparing detailed information about our complete range of edible packaging solutions. 
-                Our innovative products will be showcased here very soon.
-              </p>
-              <p className="body-medium" style={{ marginTop: 'var(--spacing-medium)', color: 'var(--brand-hover)' }}>
-                Stay tuned for updates on our revolutionary edible packaging lineup!
-              </p>
-              <a
-                href="mailto:info@magomeal.nl?subject=Early%20Access%20Request"
-                className="btn-primary"
-                style={{ marginTop: 'var(--spacing-large)', display: 'inline-block' }}
-              >
-                Contact Us for Early Access
-              </a>
+          {/* Cupffee Showcase with Animated Text Boxes */}
+          <div className="cupffee-showcase-section">
+            {/* Background Decorative Images */}
+            <div className="wheat-decoration-left">
+              <img 
+                src="https://customer-assets.emergentagent.com/job_github-builder-5/artifacts/rhnf6auc_magomeal_wheet.png"
+                alt="Natural Wheat"
+                className="wheat-bg-image"
+              />
+            </div>
+            <div className="oat-decoration-right">
+              <img 
+                src="https://customer-assets.emergentagent.com/job_github-builder-5/artifacts/9shj5p3e_oat_bran.png"
+                alt="Natural Oat Bran" 
+                className="oat-bg-image"
+              />
+            </div>
+            
+            {/* Central Cupffee Image */}
+            <div className="cupffee-center">
+              <img 
+                src="https://customer-assets.emergentagent.com/job_github-builder-5/artifacts/fij9v0sa_cupfee_bymagomeal.png"
+                alt="Cupffee by MagoMeal - Edible Coffee Cups"
+                className="cupffee-main-image"
+              />
+            </div>
+
+            {/* Animated Text Boxes Around Cup */}
+            <div className="text-box text-box-top">
+              <div className="text-content">
+                <h4>Crunchy and delicious</h4>
+                <p>The sustainable alternative to disposable cups – a tasty solution to plastic pollution!</p>
+              </div>
+            </div>
+
+            <div className="text-box text-box-right">
+              <div className="text-content">
+                <h4>Completely natural</h4>
+                <p>Masterfully crafted from 7 sustainable, locally sourced ingredients of natural origin.</p>
+              </div>
+            </div>
+
+            <div className="text-box text-box-bottom">
+              <div className="text-content">
+                <h4>Green production</h4>
+                <p>Our eco-friendly process generates zero waste and no pollution, only the delicious aroma of freshly baked cookies.</p>
+              </div>
+            </div>
+
+            <div className="text-box text-box-left">
+              <div className="text-content">
+                <h4>100% vegan</h4>
+                <p>Handpicked for purity: only the best plant-based ingredients, including natural grains and coconut oil.</p>
+              </div>
             </div>
           </div>
 
