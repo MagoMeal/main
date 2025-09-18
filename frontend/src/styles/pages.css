@@ -1859,20 +1859,187 @@
   }
 }
 
-/* Coming Soon Section Styles */
-.coming-soon-section {
+/* Cupffee Showcase Section */
+.cupffee-showcase-section {
+  position: relative;
   display: flex;
   justify-content: center;
+  align-items: center;
+  min-height: 600px;
   margin: var(--spacing-giant) 0;
+  padding: var(--spacing-large);
+  overflow: hidden;
 }
 
-.coming-soon-card {
-  max-width: 600px;
-  text-align: center;
-  padding: var(--spacing-giant);
+/* Background Decorative Images */
+.wheat-decoration-left,
+.oat-decoration-right {
+  position: absolute;
+  z-index: 1;
+  opacity: 0.2;
 }
 
-.coming-soon-card h3 {
-  margin-bottom: var(--spacing-medium);
+.wheat-decoration-left {
+  top: 50px;
+  left: -50px;
+  transform: rotate(-15deg);
+}
+
+.oat-decoration-right {
+  bottom: 50px;
+  right: -50px;
+  transform: rotate(15deg);
+}
+
+.wheat-bg-image,
+.oat-bg-image {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 15px;
+  filter: sepia(10%) saturate(80%);
+}
+
+/* Central Cupffee Image */
+.cupffee-center {
+  position: relative;
+  z-index: 5;
+  animation: cupffeeFloat 4s ease-in-out infinite;
+}
+
+.cupffee-main-image {
+  width: 350px;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 15px 40px rgba(0, 69, 52, 0.2);
+  transition: all 0.4s ease;
+}
+
+.cupffee-main-image:hover {
+  transform: scale(1.05);
+  box-shadow: 0 20px 50px rgba(0, 69, 52, 0.3);
+}
+
+/* Animated Text Boxes */
+.text-box {
+  position: absolute;
+  z-index: 10;
+  max-width: 280px;
+  background: rgba(255, 255, 255, 0.95);
+  border-radius: 15px;
+  padding: var(--spacing-medium);
+  box-shadow: 0 10px 30px rgba(0, 69, 52, 0.15);
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(0, 69, 52, 0.1);
+  opacity: 0;
+  transform: scale(0.8);
+  animation: textBoxSlideIn 0.8s ease-out forwards;
+}
+
+.text-box-top {
+  top: 20px;
+  left: 50%;
+  transform: translateX(-50%) scale(0.8);
+  animation-delay: 0.5s;
+}
+
+.text-box-right {
+  right: 20px;
+  top: 50%;
+  transform: translateY(-50%) scale(0.8);
+  animation-delay: 1s;
+}
+
+.text-box-bottom {
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%) scale(0.8);
+  animation-delay: 1.5s;
+}
+
+.text-box-left {
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%) scale(0.8);
+  animation-delay: 2s;
+}
+
+.text-content h4 {
   color: var(--brand-dark);
+  font-size: 1.1rem;
+  font-weight: 700;
+  margin-bottom: var(--spacing-small);
+}
+
+.text-content p {
+  color: var(--text-primary);
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+/* Animations */
+@keyframes cupffeeFloat {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-10px) rotate(1deg);
+  }
+}
+
+@keyframes textBoxSlideIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.8) translateX(-50%);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1) translateX(-50%);
+  }
+}
+
+/* Individual slide animations for each position */
+.text-box-right {
+  animation: textBoxSlideInRight 0.8s ease-out forwards;
+}
+
+.text-box-left {
+  animation: textBoxSlideInLeft 0.8s ease-out forwards;
+}
+
+.text-box-top, .text-box-bottom {
+  animation: textBoxSlideInVertical 0.8s ease-out forwards;
+}
+
+@keyframes textBoxSlideInRight {
+  0% {
+    opacity: 0;
+    transform: translateY(-50%) translateX(30px) scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(-50%) translateX(0) scale(1);
+  }
+}
+
+@keyframes textBoxSlideInLeft {
+  0% {
+    opacity: 0;
+    transform: translateY(-50%) translateX(-30px) scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(-50%) translateX(0) scale(1);
+  }
+}
+
+@keyframes textBoxSlideInVertical {
+  0% {
+    opacity: 0;
+    transform: translateX(-50%) scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: translateX(-50%) scale(1);
+  }
 }
