@@ -2014,7 +2014,7 @@
   transform: scale(0.8);
 }
 
-/* Top-left: Completely natural */
+/* Top-left: 100% vegan */
 .text-box-top-left {
   top: 30px; /* ~30-40px gap from cup */
   left: -35px; /* ~30-40px gap from cup edge */
@@ -2035,11 +2035,13 @@
   animation: slideFromCupBottomLeft 0.6s ease-out 0.9s forwards;
 }
 
-/* Bottom-right: 100% vegan */
-.text-box-bottom-right {
-  bottom: 30px; /* ~30-40px gap from cup */
-  right: -35px; /* ~30-40px gap from cup edge */
-  animation: slideFromCupBottomRight 0.6s ease-out 1.2s forwards;
+/* Directly below cup: Completely natural */
+.text-box-bottom-center {
+  bottom: -50px; /* ~30-40px gap below cup */
+  left: 50%; /* Center horizontally */
+  transform: translateX(-50%) scale(0.8);
+  opacity: 0;
+  animation: slideFromCupBottomCenter 0.6s ease-out 1.2s forwards;
 }
 
 .text-content h4 {
