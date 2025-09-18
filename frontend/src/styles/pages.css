@@ -1855,7 +1855,21 @@
   .side-oat-image {
     width: 70px;
     height: 100px;
-    opacity: 0.35;
+    opacity: 0.7;
+  }
+  
+  /* Mobile Footer */
+  .footer-logo-image {
+    height: 60px;
+  }
+  
+  .footer-tagline {
+    font-size: 0.9rem;
+    padding: 0 var(--spacing-small);
+  }
+  
+  .footer-copyright {
+    font-size: 0.8rem;
   }
 
   .hero-combined-box {
