@@ -122,6 +122,14 @@ const Products = () => {
                 <p>Masterfully crafted from 7 sustainable, locally sourced ingredients of natural origin.</p>
               </div>
             </div>
+
+            {/* Right side: GMO free */}
+            <div className="text-box text-box-right-center">
+              <div className="text-content">
+                <h4>GMO free</h4>
+                <p>Just nature's best 100% GMO-free no artificial colorants, sweeteners or preservatives</p>
+              </div>
+            </div>
           </div>
 
           {/* Benefits Section */}
