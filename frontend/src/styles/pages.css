@@ -252,10 +252,10 @@
 
 /* Animated Top Tagline Section */
 .top-tagline-section {
-  padding: var(--spacing-large) 0;
+  padding: var(--spacing-medium) 0;
   text-align: center;
   background: linear-gradient(135deg, rgba(0, 69, 52, 0.05) 0%, rgba(76, 175, 80, 0.05) 100%);
-  margin-top: var(--spacing-medium);
+  margin-top: var(--spacing-small);
 }
 
 .tagline-container {
