@@ -516,13 +516,13 @@
   }
 }
 
-/* Hover Enhancement */
+/* Interactive Front Image Hover Effects */
 .side-wheat-image:hover,
 .side-oat-image:hover {
-  opacity: 0.6;
-  transform: scale(1.05) rotate(3deg);
-  pointer-events: auto;
-  cursor: pointer;
+  opacity: 1;
+  transform: scale(1.08) rotate(2deg);
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.3);
+  z-index: 15;
 }
 
 /* Footer Section */
