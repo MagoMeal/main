@@ -773,7 +773,7 @@
 }
 
 .hero-logo-image {
-  height: 190px;
+  height: 220px; /* Increased from 190px to 220px */
   width: auto;
   transition: all 0.4s ease;
   animation: logoFloat 2s ease-in-out infinite;
