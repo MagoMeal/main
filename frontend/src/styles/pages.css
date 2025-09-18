@@ -1909,9 +1909,9 @@
   .text-box-bottom-center {
     position: relative !important;
     width: 100%;
-    max-width: 320px;
+    max-width: 360px; /* Increased from 320px to 360px */
     margin: var(--spacing-medium) auto;
-    padding: var(--spacing-medium);
+    padding: var(--spacing-large); /* Increased padding */
     opacity: 1 !important;
     transform: none !important;
     animation: none !important;
