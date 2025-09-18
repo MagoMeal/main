@@ -2005,7 +2005,8 @@
 .text-box-top-left,
 .text-box-top-right,
 .text-box-bottom-left,
-.text-box-bottom-center {
+.text-box-bottom-center,
+.text-box-right-center {
   position: absolute;
   z-index: 10;
   width: 235px;
