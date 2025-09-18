@@ -445,11 +445,11 @@
   }
 }
 
-/* Side Images for Social Media Section */
+/* Side Images for Social Media Section - Front Elements */
 .side-images-container {
   position: relative;
-  z-index: 1;
-  pointer-events: none;
+  z-index: 10;
+  pointer-events: auto;
 }
 
 .left-side-image,
