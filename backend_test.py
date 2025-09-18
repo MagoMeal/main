@@ -3,7 +3,7 @@ import sys
 from datetime import datetime
 
 class MagoMealAPITester:
-    def __init__(self, base_url="https://edible-cup.preview.emergentagent.com"):
+    def __init__(self, base_url="https://github-builder-5.preview.emergentagent.com"):
         self.base_url = base_url
         self.tests_run = 0
         self.tests_passed = 0
