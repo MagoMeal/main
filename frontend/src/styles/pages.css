@@ -1860,17 +1860,19 @@
   
   /* Mobile Cupffee Showcase */
   .cupffee-showcase-section {
-    min-height: 500px;
+    min-height: 800px;
     padding: var(--spacing-medium);
+    flex-direction: column;
   }
   
   .cupffee-main-image {
     width: 250px;
+    margin-bottom: var(--spacing-large);
   }
   
   .wheat-decoration-left,
   .oat-decoration-right {
-    opacity: 0.1;
+    opacity: 0.08;
   }
   
   .wheat-bg-image,
@@ -1879,34 +1881,38 @@
     height: 180px;
   }
   
+  /* Mobile: Stack text boxes in two rows below cup */
   .text-box {
-    max-width: 200px;
+    position: relative !important;
+    width: 280px;
+    max-width: 90%;
+    margin: var(--spacing-small) auto;
     padding: var(--spacing-small);
-    font-size: 0.85rem;
+    opacity: 1 !important;
+    transform: none !important;
+    animation: none !important;
   }
   
-  .text-box-top {
-    top: 10px;
+  .text-box-top-left,
+  .text-box-top-right {
+    display: inline-block;
+    width: 45%;
+    margin: var(--spacing-small) 2.5%;
   }
   
-  .text-box-bottom {
-    bottom: 10px;
-  }
-  
-  .text-box-left {
-    left: 10px;
-  }
-  
-  .text-box-right {
-    right: 10px;
+  .text-box-bottom-left,
+  .text-box-bottom-right {
+    display: inline-block;  
+    width: 45%;
+    margin: var(--spacing-small) 2.5%;
   }
   
   .text-content h4 {
-    font-size: 1rem;
+    font-size: 16px;
   }
   
   .text-content p {
-    font-size: 0.8rem;
+    font-size: 13px;
   }
 }
 
