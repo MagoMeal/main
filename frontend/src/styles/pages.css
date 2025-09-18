@@ -2000,7 +2000,7 @@
 .text-box-top-left,
 .text-box-top-right,
 .text-box-bottom-left,
-.text-box-bottom-right {
+.text-box-bottom-center {
   position: absolute;
   z-index: 10;
   width: 235px;
