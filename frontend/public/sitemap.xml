@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+  <url>
+    <loc>https://www.magomeal.nl/</loc>
+    <lastmod>2025-09-17</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.magomeal.nl/about</loc>
+    <lastmod>2025-09-17</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.magomeal.nl/menu</loc>
+    <lastmod>2025-09-17</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+  <url>
+    <loc>https://www.magomeal.nl/contact</loc>
+    <lastmod>2025-09-17</lastmod>
+    <priority>0.8</priority>
+  </url>
+
+</urlset>

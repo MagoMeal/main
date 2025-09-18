@@ -1,0 +1,28 @@
+.shop-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+  padding: 20px;
+}
+
+.animated-text {
+  font-size: 2rem;
+  line-height: 1.2;
+  font-weight: bold;
+  opacity: 0;
+  animation: fadeInUp 2s ease forwards;
+}
+
+/* Keyframes for animation */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

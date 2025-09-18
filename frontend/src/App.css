@@ -1,0 +1,322 @@
+/* Foundation Colors - Exact Network Colors */
+:root {
+  /* Backgrounds - Exact Network Colors */
+  --bg-page: #FAFFEE;           /* Main page background */
+  --bg-card: #FAFAFF;           /* Card backgrounds */ 
+  --bg-subtle: #EDEDFE;         /* Light section backgrounds */
+  --bg-section: #CACAFC;        /* Subtle purple sections */
+  
+  /* Text - Exact Network Colors */
+  --text-primary: #004534;      /* Main headings and content */
+  --text-secondary: #0C6951;    /* Supporting text */
+  --text-light: #807979;        /* Captions, metadata */
+  
+  /* Borders - Exact Network Colors */
+  --border-light: #CACAFC;      /* Subtle separators */
+  --border-medium: #DDDDDD;     /* Standard borders */
+  --border-strong: #B0B0B0;     /* Emphasized borders */
+  
+  /* MAIN ACCENT COLORS - Network Brand Colors Only */
+  --brand-primary: #D3FF62;     /* Main Network green */
+  --brand-dark: #004534;        
+  --brand-hover: #0C6951;      
+  
+  /* Spacing System - Exact Network Values */
+  --spacing-xs: 8px;      /* Small spacing */
+  --spacing-small: 16px;  /* Standard spacing */
+  --spacing-medium: 24px; /* Large spacing */
+  --spacing-large: 32px;  /* Extra large spacing */
+  --spacing-xl: 48px;     /* Major section spacing */
+  --spacing-giant: 64px;  /* Hero section spacing */
+}
+
+/* App.css */
+
+.cta-text {
+  margin: 16px 0;
+  font-size: 1.1rem;
+  color: #333;
+}
+
+/* Reset and Base Styles */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-weight: 400;
+  line-height: 1.5;
+  background: var(--bg-page);
+  color: var(--text-primary);
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+/* Typography Scale - Exact Network Sizing */
+.display-large { 
+  font-size: clamp(3rem, 6.5vw, 5rem); 
+  font-weight: 700; 
+  line-height: 0.95; 
+  color: var(--text-primary);
+}
+
+.display-medium { 
+  font-size: clamp(2rem, 4vw, 3rem); 
+  font-weight: 600; 
+  line-height: 1.2; 
+  color: var(--text-primary);
+}
+
+.display-small { 
+  font-size: clamp(1.5rem, 3vw, 2rem); 
+  font-weight: 600; 
+  line-height: 1.3; 
+  color: var(--text-primary);
+}
+
+.heading-1 { 
+  font-size: clamp(2rem, 4vw, 3rem); 
+  font-weight: 600; 
+  line-height: 1.2; 
+  color: var(--text-primary);
+}
+
+.heading-2 { 
+  font-size: clamp(1.5rem, 3vw, 2rem); 
+  font-weight: 600; 
+  line-height: 1.3; 
+  color: var(--text-primary);
+}
+
+.heading-3 { 
+  font-size: clamp(1.25rem, 2.5vw, 1.5rem); 
+  font-weight: 600; 
+  line-height: 1.4; 
+  color: var(--text-primary);
+}
+
+.body-large { 
+  font-size: clamp(1.125rem, 2.5vw, 1.25rem); 
+  font-weight: 400; 
+  line-height: 1.6; 
+  color: var(--text-secondary);
+}
+
+.body-medium { 
+  font-size: clamp(1rem, 2vw, 1.125rem); 
+  font-weight: 400; 
+  line-height: 1.6; 
+  color: var(--text-secondary);
+}
+
+.body-small { 
+  font-size: clamp(0.875rem, 1.5vw, 1rem); 
+  font-weight: 400; 
+  line-height: 1.5; 
+  color: var(--text-light);
+}
+
+/* Business Cards - Exact Network Style */
+.network-card {
+  background: var(--bg-card);
+  border-radius: 32px;
+  padding: var(--spacing-large);
+  box-shadow: 0 2px 8px rgba(0, 69, 52, 0.25);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+}
+
+/* Feature cards with leafs decoration */
+.feature-card-with-leafs {
+  position: relative;
+  overflow: hidden;
+}
+
+.leafs-decoration {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  z-index: 1;
+  opacity: 0.15;
+  transition: all 0.3s ease;
+}
+
+.leafs-corner-image {
+  width: 80px;
+  height: auto;
+  transform: rotate(25deg);
+  transition: all 0.3s ease;
+}
+
+.feature-card-with-leafs:hover .leafs-decoration {
+  opacity: 0.25;
+  transform: scale(1.1);
+}
+
+.feature-card-with-leafs:hover .leafs-corner-image {
+  transform: rotate(30deg) scale(1.05);
+}
+
+.network-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 24px rgba(0, 69, 52, 0.25);
+}
+
+.network-card-title {
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  font-weight: 600;
+  line-height: 1.3;
+  margin-bottom: 0.75rem;
+  color: var(--text-primary);
+}
+
+.network-card-content {
+  font-size: clamp(1rem, 2vw, 1.125rem);
+  font-weight: 400;
+  line-height: 1.6;
+  color: var(--text-secondary);
+}
+
+/* Primary Buttons - Exact Network Style */
+.btn-primary {
+  background: var(--brand-dark);
+  color: white;
+  border: none;
+  border-radius: 25px; /* Pill shape */
+  padding: 14px 32px;
+  font-size: clamp(1rem, 2vw, 1.125rem);
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-decoration: none;
+  display: inline-block;
+  min-height: 48px;
+  line-height: 1.2;
+}
+
+.btn-primary:hover {
+  background: var(--brand-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 69, 52, 0.25);
+}
+
+.btn-primary:active {
+  transform: translateY(0) scale(0.98);
+}
+
+/* Secondary Buttons - Outlined Style */
+.btn-secondary {
+  background: transparent;
+  color: var(--brand-dark);
+  border: 2px solid var(--brand-dark);
+  border-radius: 25px; /* Pill shape */
+  padding: 12px 30px;
+  font-size: clamp(1rem, 2vw, 1.125rem);
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-decoration: none;
+  display: inline-block;
+  min-height: 48px;
+}
+
+.btn-secondary:hover {
+  background: var(--brand-dark);
+  color: white;
+  transform: translateY(-2px);
+}
+
+/* Container System - Exact Network Breakpoints */
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 12px;
+}
+
+/* Grid Layout */
+.network-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: var(--spacing-large);
+  padding: var(--spacing-large);
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+/* Animations */
+.animated {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all 0.6s ease;
+}
+
+.animated.fadeIn {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.hover-lift {
+  transition: transform 0.3s ease;
+}
+
+.hover-lift:hover {
+  transform: translateY(-4px);
+}
+
+/* Responsive Design - Exact Network Breakpoints */
+@media (max-width: 1024px) {
+  .container {
+    padding: 0 16px;
+  }
+}
+
+@media (max-width: 781px) {
+  .container {
+    padding: 0 12px;
+  }
+  
+  .network-grid {
+    grid-template-columns: 1fr;
+    gap: var(--spacing-medium);
+    padding: var(--spacing-medium);
+  }
+  
+  .network-card {
+    border-radius: 24px;
+    padding: var(--spacing-medium);
+  }
+  
+  .leafs-corner-image {
+    width: 60px;
+  }
+  
+  .leafs-decoration {
+    top: -5px;
+    right: -5px;
+  }
+}
+
+/* Desktop optimizations */
+@media (min-width: 1024px) {
+  .network-grid {
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: var(--spacing-large);
+  }
+  
+  .network-card:hover {
+    transform: translateY(-6px);
+  }
+}
