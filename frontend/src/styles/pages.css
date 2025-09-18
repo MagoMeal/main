@@ -1900,7 +1900,8 @@
     margin: var(--spacing-small) 2.5%;
   }
   
-  .text-box-bottom-left {
+  .text-box-bottom-left,
+  .text-box-right-center {
     display: inline-block;  
     width: 45%;
     margin: var(--spacing-small) 2.5%;
