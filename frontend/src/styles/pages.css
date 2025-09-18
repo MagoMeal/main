@@ -1940,6 +1940,46 @@
   }
 }
 
+/* Extra Small Mobile Devices */
+@media (max-width: 480px) {
+  .cupffee-showcase-section {
+    padding: var(--spacing-medium) var(--spacing-small);
+    min-height: 600px;
+  }
+  
+  .cupffee-main-image {
+    width: 220px;
+    margin-bottom: var(--spacing-medium);
+  }
+  
+  .text-box {
+    max-width: 280px;
+    padding: var(--spacing-small);
+    margin: var(--spacing-xs) auto;
+  }
+  
+  .text-content h4 {
+    font-size: 15px;
+    margin-bottom: 8px;
+  }
+  
+  .text-content p {
+    font-size: 12px;
+    line-height: 1.4;
+  }
+  
+  .wheat-decoration-left,
+  .oat-decoration-right {
+    opacity: 0.05;
+  }
+  
+  .wheat-bg-image,
+  .oat-bg-image {
+    width: 80px;
+    height: 120px;
+  }
+}
+
 /* Cupffee Showcase Section */
 .cupffee-showcase-section {
   position: relative;
