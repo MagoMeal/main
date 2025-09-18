@@ -476,11 +476,13 @@
   height: 180px;
   object-fit: cover;
   object-position: center;
-  opacity: 0.5;
+  opacity: 0.8;
   transition: all 0.4s ease;
   border-radius: 12px;
-  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
   /* Keep original colors - no filters applied */
+  /* Normal front images, not background */
 }
 
 .side-wheat-image {
