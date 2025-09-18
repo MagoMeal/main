@@ -1686,44 +1686,6 @@
   .giant-question-mark {
     font-size: clamp(2.5rem, 10vw, 4rem);
   }
-  
-  /* Mobile Side Images */
-  .left-side-image,
-  .right-side-image {
-    width: 80px;
-    height: 120px;
-  }
-  
-  .left-side-image {
-    top: -10px;
-    left: -90px;
-  }
-  
-  .right-side-image {
-    top: -10px;
-    right: -90px;
-  }
-  
-  .side-wheat-image,
-  .side-oat-image {
-    width: 70px;
-    height: 100px;
-    opacity: 0.7;
-  }
-  
-  /* Mobile Footer */
-  .footer-logo-image {
-    height: 60px;
-  }
-  
-  .footer-tagline {
-    font-size: 0.9rem;
-    padding: 0 var(--spacing-small);
-  }
-  
-  .footer-copyright {
-    font-size: 0.8rem;
-  }
 
   .hero-combined-box {
     flex-direction: column;
