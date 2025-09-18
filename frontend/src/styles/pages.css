@@ -1881,24 +1881,36 @@
     height: 180px;
   }
   
-  /* Mobile: Stack text boxes below cup in organized layout */
+  /* Mobile: Complete layout restructure for better text box stacking */
   .cupffee-showcase-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: block !important;
     padding: var(--spacing-large) var(--spacing-medium);
+    min-height: auto;
+    text-align: center;
   }
   
   .cupffee-center {
-    order: 1;
-    margin-bottom: var(--spacing-large);
+    position: relative !important;
+    margin: 0 auto var(--spacing-large) auto;
+    display: block;
   }
   
-  .text-box {
+  /* Hide background decorations on mobile for cleaner look */
+  .wheat-decoration-left,
+  .oat-decoration-right {
+    display: none;
+  }
+  
+  /* Mobile text boxes - stack vertically with full width */
+  .text-box-top-left,
+  .text-box-top-right,
+  .text-box-bottom-left,
+  .text-box-right-center,
+  .text-box-bottom-center {
     position: relative !important;
     width: 100%;
     max-width: 320px;
-    margin: var(--spacing-small) auto;
+    margin: var(--spacing-medium) auto;
     padding: var(--spacing-medium);
     opacity: 1 !important;
     transform: none !important;
@@ -1908,27 +1920,7 @@
     right: auto !important;
     top: auto !important;
     bottom: auto !important;
-  }
-  
-  /* Mobile: Stack text boxes in organized order */
-  .text-box-top-left {
-    order: 2;
-  }
-  
-  .text-box-top-right {
-    order: 3;
-  }
-  
-  .text-box-bottom-left {
-    order: 4;
-  }
-  
-  .text-box-right-center {
-    order: 5;
-  }
-  
-  .text-box-bottom-center {
-    order: 6;
+    float: none !important;
   }
   
   .text-content h4 {
