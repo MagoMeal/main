@@ -2353,9 +2353,7 @@
 .certification-actions,
 .specification-actions {
   display: flex;
-  gap: var(--spacing-small);
   justify-content: center;
-  flex-wrap: wrap;
 }
 
 .view-btn,
