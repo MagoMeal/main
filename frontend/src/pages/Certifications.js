@@ -106,15 +106,9 @@ const Certifications = () => {
                 <div className="certification-actions">
                   <button
                     onClick={() => window.open(cert.pdfUrl, '_blank')}
-                    className="btn-secondary view-btn"
+                    className="btn-primary view-btn"
                   >
                     <FileText size={18} /> View Certificate
-                  </button>
-                  <button
-                    onClick={() => handleDownload(cert.pdfUrl, cert.fileName)}
-                    className="btn-primary download-btn"
-                  >
-                    <Download size={18} /> Download PDF
                   </button>
                 </div>
               </div>
