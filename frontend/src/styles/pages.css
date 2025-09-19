@@ -2374,15 +2374,13 @@
 }
 
 .view-btn {
-  background: var(--bg-subtle);
-  color: var(--text-primary);
-  border: 1px solid var(--border-medium);
+  background: var(--brand-dark);
+  color: white;
 }
 
 .view-btn:hover {
-  background: var(--bg-card);
-  border-color: var(--brand-dark);
-  color: var(--brand-dark);
+  background: var(--brand-hover);
+  transform: translateY(-1px);
 }
 
 .download-btn {
