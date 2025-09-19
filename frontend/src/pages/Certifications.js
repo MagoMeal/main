@@ -1,5 +1,5 @@
 import React from 'react';
-import { Download, FileText, Award, CheckCircle } from 'lucide-react';
+import { FileText, Award, CheckCircle } from 'lucide-react';
 
 const Certifications = () => {
   const certifications = [
