@@ -1671,7 +1671,7 @@
   }
   
   .top-logo-image {
-    height: 80px;
+    height: 100px; /* Increased from 80px to 100px */
   }
   
   .animated-tagline {
