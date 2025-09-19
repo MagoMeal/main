@@ -7,6 +7,7 @@ import Footer from "./components/Footer";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Products from "./pages/Products";
+import Certifications from "./pages/Certifications";
 import Blog from "./pages/Blog";
 import Contact from "./pages/Contact";
 import Shop from "./pages/Shop";
