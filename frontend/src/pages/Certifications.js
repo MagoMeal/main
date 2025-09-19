@@ -45,6 +45,14 @@ const Certifications = () => {
       icon: <FileText size={32} />,
       pdfUrl: "https://customer-assets.emergentagent.com/job_build-magomeal/artifacts/0hdy6fl0_Cupffee_220_product_specification_2024.pdf",
       fileName: "Cupffee_220_product_specification_2024.pdf"
+    },
+    {
+      name: "110ml Cupffee Cup",
+      description: "Complete product specification for our 110ml edible coffee cup",
+      volume: "110ml",
+      icon: <FileText size={32} />,
+      pdfUrl: "https://customer-assets.emergentagent.com/job_build-magomeal/artifacts/5ao2klyu_Cupffee_110_product%20specification_2024.pdf",
+      fileName: "Cupffee_110_product_specification_2024.pdf"
     }
   ];
 
