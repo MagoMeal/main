@@ -1695,7 +1695,7 @@
   }
   
   .hero-logo-image {
-    height: 140px;
+    height: 160px; /* Increased from 140px to 160px */
   }
   
   .cupffee-image {
