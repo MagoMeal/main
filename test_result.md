@@ -118,7 +118,7 @@ backend:
         comment: "Backend server running successfully with MongoDB integration and API endpoints"
       - working: true
         agent: "testing"
-        comment: "✅ COMPREHENSIVE BACKEND TESTING COMPLETED: All API endpoints tested successfully. GET /api/ returns {'message': 'Hello World'} with 200 status. GET /api/status returns array of status checks with 200 status. POST /api/status creates new status checks with proper UUID, timestamp, and client_name fields. CORS configuration working correctly with proper headers. Backend running on https://github-builder-5.preview.emergentagent.com with /api prefix as expected. Fixed missing MONGO_URL environment variable issue."
+        comment: "✅ COMPREHENSIVE BACKEND TESTING COMPLETED: All API endpoints tested successfully. GET /api/ returns {'message': 'Hello World'} with 200 status. GET /api/status returns array of status checks with 200 status. POST /api/status creates new status checks with proper UUID, timestamp, and client_name fields. CORS configuration working correctly with proper headers. Backend running on https://build-magomeal.preview.emergentagent.com with /api prefix as expected. Fixed missing MONGO_URL environment variable issue."
 
   - task: "Database Integration"
     implemented: true
@@ -199,6 +199,6 @@ test_plan:
 
 agent_communication:
   - agent: "main"
-    message: "MagoMeal website fully implemented and functional. All animations, styling, and core features working as specified. Website available at https://github-builder-5.preview.emergentagent.com"
+    message: "MagoMeal website fully implemented and functional. All animations, styling, and core features working as specified. Website available at https://build-magomeal.preview.emergentagent.com"
   - agent: "testing"
     message: "✅ BACKEND API TESTING COMPLETED SUCCESSFULLY: All 3 API endpoints tested and working perfectly. Fixed critical environment variable issue (missing MONGO_URL) that was preventing backend startup. Created backend/.env file with proper MongoDB configuration. All tests passing: GET /api/ (200), GET /api/status (200), POST /api/status (200). CORS configuration verified. Database connectivity confirmed. Backend is fully functional and ready for production use."
