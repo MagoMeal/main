@@ -200,7 +200,7 @@ frontend:
     status_history:
       - working: true
         agent: "main"
-        comment: "New certifications page with 4 PDF certifications (FSSC 22000, Vegan, Halal, FDA) and 1 product specification (220ml Cup). Clean professional layout with view/download functionality for all PDFs. Navigation updated to include new page."
+        comment: "New certifications page with 4 PDF certifications (FSSC 22000, Vegan, Halal, FDA) and 2 product specifications (220ml and 110ml Cups). Clean professional layout with view functionality for all PDFs. Download buttons removed as requested. Navigation updated to include new page."
 
 metadata:
   created_by: "main_agent"
