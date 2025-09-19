@@ -137,6 +137,9 @@ backend:
       - working: true
         agent: "testing"
         comment: "✅ DATABASE INTEGRATION VERIFIED: MongoDB connection established successfully. Status checks collection working properly with CRUD operations. Data persistence confirmed - POST requests create records that are retrievable via GET requests. Created backend/.env file with MONGO_URL=mongodb://localhost:27017, DB_NAME=magomeal, CORS_ORIGINS=* to resolve environment variable issues. All database operations functioning correctly."
+      - working: true
+        agent: "testing"
+        comment: "✅ DATABASE RE-VERIFICATION: MongoDB connection re-established after recreating missing .env file. Database operations confirmed working: CREATE operations via POST /api/status successfully insert records with UUID, timestamp, and client_name. READ operations via GET /api/status retrieve all records correctly. Data persistence verified - created records are immediately retrievable. Database contains 2 status check records after testing."
 
 frontend:
   - task: "Website Structure & Navigation"
