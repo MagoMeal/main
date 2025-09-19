@@ -159,7 +159,7 @@ const Certifications = () => {
           {/* Note about 110ml cup */}
           <div className="specification-note">
             <p className="body-medium" style={{ fontStyle: 'italic', color: 'var(--text-muted)' }}>
-              Note: 110ml cup specifications will be available soon. Please contact us for more information.
+              <strong>Note:</strong> 110ml Cupffee Cup specifications will be available soon. Please contact us at <a href="mailto:info@magomeal.nl" style={{ color: 'var(--brand-dark)', textDecoration: 'none' }}>info@magomeal.nl</a> for more information.
             </p>
           </div>
         </div>
