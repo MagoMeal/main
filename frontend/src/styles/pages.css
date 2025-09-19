@@ -287,7 +287,7 @@
 }
 
 .top-logo-image {
-  height: 120px;
+  height: 140px; /* Increased from 120px to 140px */
   width: auto;
   filter: drop-shadow(0 5px 15px rgba(0, 69, 52, 0.3));
   transition: all 0.4s ease;
