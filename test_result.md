@@ -184,6 +184,18 @@ frontend:
         agent: "main"
         comment: "Responsive design, advanced animations, glass-morphism effects, eco-friendly theme working"
 
+  - task: "Cup Certifications & Specs Page"
+    implemented: true
+    working: true
+    file: "frontend/src/pages/Certifications.js"
+    stuck_count: 0
+    priority: "high"
+    needs_retesting: false
+    status_history:
+      - working: true
+        agent: "main"
+        comment: "New certifications page with 4 PDF certifications (FSSC 22000, Vegan, Halal, FDA) and 1 product specification (220ml Cup). Clean professional layout with view/download functionality for all PDFs. Navigation updated to include new page."
+
 metadata:
   created_by: "main_agent"
   version: "1.0"
